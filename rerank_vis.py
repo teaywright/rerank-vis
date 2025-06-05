@@ -24,7 +24,7 @@ for g_entry, r_entry in zip(gaze_data, rec_data):
 
 # --- Load images from local data/ directory ---
 def get_image_by_filename(filename):
-    local_path = Path("data") / filename
+    local_path = Path("data/overlayed_images/") / filename
     if local_path.exists():
         return Image.open(local_path)
     return None
