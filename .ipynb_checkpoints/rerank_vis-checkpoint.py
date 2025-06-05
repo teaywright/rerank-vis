@@ -2,11 +2,12 @@ import streamlit as st
 import json
 from PIL import Image, ImageDraw
 from pathlib import Path
+from matplotlib import cm
 
 st.set_page_config(layout="wide")
 st.title("Gaze vs REC: Reranking + Detailed Overlays")
 
-# ─── 1) Load JSON files (now containing "gaze_sequences" and "rec_points") ───────
+# ─── 1) Load JSON files (containing "gaze_sequences" and "rec_points") ───────
 with open("gaze_scoring_results.json") as f:
     gaze_data = json.load(f)
 
@@ -19,7 +20,6 @@ for g_entry, r_entry in zip(gaze_data, rec_data):
     image_path = g_entry["image_path"]
     assert image_path == r_entry["image_path"], "Mismatch between gaze and rec entries"
 
-    # Pull the lists (or default to empty)
     gaze_sequences = g_entry.get("gaze_sequences", [])
     rec_points      = r_entry.get("rec_points", [])
 
@@ -45,37 +45,40 @@ def get_image_by_filename(filename: str) -> Image.Image | None:
         return Image.open(local_path)
     return None
 
-# ─── 3) Drawing functions ──────────────────────────────────────────────────────
-def draw_gaze_path(im: Image.Image, path: list[list[float]], color: str = "lime", width: int = 2) -> Image.Image:
+# ─── 3) Custom drawing for gaze sequences ─────────────────────────────────────
+def draw_sequence(draw: ImageDraw.ImageDraw, seq: list[list[float]], 
+                  cmap_name: str = "viridis", last_color: str = "red", label: bool = True):
     """
-    Given a list of [x, y] points, draw a polyline + small circles for each fixation.
-    If path is empty or fewer than 2 points, return im unchanged.
+    Draw a colored gaze path:
+      - Each fixation is a filled circle, colored by its index along a colormap
+      - Lines between consecutive fixations, same color
+      - Label each fixation with its index (1-based) if label=True
+      - Outline the final fixation with last_color
     """
-    if not path or not isinstance(path, list) or len(path) < 2:
-        return im
-    canvas = im.copy()
-    draw = ImageDraw.Draw(canvas)
-    pts = [(pt[0], pt[1]) for pt in path if isinstance(pt, list) and len(pt) == 2]
-    if len(pts) < 2:
-        return im
-    draw.line(pts, fill=color, width=width)
-    for x, y in pts:
-        r = 3
-        draw.ellipse([x - r, y - r, x + r, y + r], outline=color, width=1)
-    return canvas
+    # Clean sequence: ensure each pt is (float, float)
+    clean_seq = [tuple(pt) for pt in seq
+                 if isinstance(pt, (list, tuple)) and len(pt) == 2
+                 and all(isinstance(v, (int, float)) for v in pt)]
+    if not clean_seq:
+        return
 
-def draw_rec_point(im: Image.Image, point: list[float], color: str = "yellow", radius: int = 5) -> Image.Image:
-    """
-    Given a single [x, y], draw a small filled circle. If point is None or invalid, return im unchanged.
-    """
-    if not point or not isinstance(point, list) or len(point) != 2:
-        return im
-    x, y = point
-    canvas = im.copy()
-    draw = ImageDraw.Draw(canvas)
-    r = radius
-    draw.ellipse([x - r, y - r, x + r, y + r], fill=color, outline=color)
-    return canvas
+    N = len(clean_seq)
+    cmap = cm.get_cmap(cmap_name, N)
+
+    for i, (x, y) in enumerate(clean_seq):
+        color_rgb = tuple(int(255 * c) for c in cmap(i)[:3])
+        r = 4
+        draw.ellipse((x - r, y - r, x + r, y + r), fill=color_rgb)
+        if i > 0:
+            x_prev, y_prev = clean_seq[i - 1]
+            draw.line([(x_prev, y_prev), (x, y)], fill=color_rgb, width=4)
+        if label:
+            draw.text((x + 5, y - 5), str(i + 1), fill="white")
+
+    # Outline the last fixation
+    fx, fy = clean_seq[-1]
+    r2 = 6
+    draw.ellipse((fx - r2, fy - r2, fx + r2, fy + r2), outline=last_color, width=3)
 
 # ─── 4) Streamlit UI ───────────────────────────────────────────────────────────
 example_keys = list(data.keys())
@@ -96,7 +99,12 @@ if base_image is None:
     st.stop()
 
 # ────────────────────────────────────────────────────────────────────────────────
-# 4.2 – Show reranked tables side by side
+# 4.2 – Display the single overlayed image at the top
+st.subheader("① Overlayed Image (with bounding box already)")
+st.image(base_image, use_container_width=True)
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 4.3 – Show reranked tables side by side
 def reranked_table(cands, dists, title: str):
     st.write(f"#### {title}")
     sorted_items = sorted(zip(dists, cands), key=lambda x: x[0])
@@ -112,24 +120,33 @@ with col_b:
     reranked_table(candidates, rec_distances, "📍 REC-Based Ranking")
 
 # ────────────────────────────────────────────────────────────────────────────────
-# 4.3 – For each candidate, put an expander showing both overlays
+# 4.4 – For each candidate, put an expander showing both overlays
 st.markdown("## Detailed Overlays per Candidate  (Scroll ↓ to expand)")
 for idx, cand in enumerate(candidates):
     with st.expander(f"{idx+1}. \"{cand['text']}\" – Type: `{cand['type']}`"):
-        # Draw gaze path overlay
+        # 4.4.1 – Gaze overlay
         gaze_path = gaze_sequences[idx] if idx < len(gaze_sequences) else []
-        img_gaze = draw_gaze_path(base_image, gaze_path, color="lime", width=2)
+        img_gaze = base_image.copy()
+        draw_g = ImageDraw.Draw(img_gaze)
+        draw_sequence(draw_g, gaze_path, cmap_name="viridis", last_color="red", label=True)
 
-        # Draw REC point overlay (on the same base image)
+        # 4.4.2 – REC point overlay
         rec_pt = rec_points[idx] if idx < len(rec_points) else None
-        img_rec = draw_rec_point(base_image, rec_pt, color="yellow", radius=5)
+        img_rec = base_image.copy()
+        draw_r = ImageDraw.Draw(img_rec)
+        if isinstance(rec_pt, (list, tuple)) and len(rec_pt) == 2:
+            x_rec, y_rec = rec_pt
+            r = 6
+            draw_r.ellipse((x_rec - r, y_rec - r, x_rec + r, y_rec + r),
+                           fill="yellow", outline="yellow")
 
-        st.write("**Gaze Path (lime)**")
+        st.write("**Gaze Path (colored by fixation order)**")
         st.image(img_gaze, use_container_width=True)
-        st.write("**REC Point (yellow)**")
+
+        st.write("**REC Point (yellow circle)**")
         st.image(img_rec, use_container_width=True)
 
-        # Optionally also display the raw distance values:
+        # Optionally show distances
         st.write(f"- Gaze distance: `{gaze_distances[idx]:.2f}`")
         st.write(f"- REC distance: `{rec_distances[idx]:.2f}`")
         st.write("---")
