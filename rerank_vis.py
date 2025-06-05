@@ -48,11 +48,11 @@ if image is None:
     st.error(f"Image '{filename}' not found in local data/ directory.")
     st.stop()
 
-# --- Draw BBox on Image ---
-def draw_bbox(image, bbox, color="red", width=4):
-    draw = ImageDraw.Draw(image)
-    draw.rectangle(bbox, outline=color, width=width)
-    return image
+# # --- Draw BBox on Image ---
+# def draw_bbox(image, bbox, color="red", width=4):
+#     draw = ImageDraw.Draw(image)
+#     draw.rectangle(bbox, outline=color, width=width)
+#     return image
 
 st.subheader("Image with Bounding Box")
 img_copy = image.copy()
