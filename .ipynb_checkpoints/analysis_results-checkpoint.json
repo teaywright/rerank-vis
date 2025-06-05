@@ -1,0 +1,4136 @@
+{
+  "total_examples": 100,
+  "gold_at_top_rec": 22,
+  "gold_at_top_gaze": 30,
+  "gold_at_top_combined": 28,
+  "gold_in_top3_rec": 55,
+  "gold_in_top3_gaze": 65,
+  "gold_in_top3_combined": 68,
+  "avg_gold_position_rec": 6.099264705882353,
+  "avg_gold_position_gaze": 5.588235294117647,
+  "avg_gold_position_combined": 5.584558823529412,
+  "example_analyses": [
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073094500_0.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          2,
+          5
+        ],
+        "gaze": [
+          5,
+          1,
+          2
+        ],
+        "combined": [
+          5,
+          1,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The laptop on the left",
+        "type": "generated",
+        "score": 1.8353875235197012
+      },
+      "best_gaze_candidate": {
+        "text": "large laptop",
+        "type": "gold",
+        "score": 25.797223693697536
+      },
+      "best_combined_candidate": {
+        "text": "large laptop",
+        "type": "gold",
+        "rec_score": 1.8353875235197012,
+        "gaze_score": 25.797223693697536,
+        "combined_score": 27.63261121721724
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073104602_1.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          11,
+          12
+        ],
+        "gaze": [
+          2,
+          12,
+          3
+        ],
+        "combined": [
+          2,
+          12,
+          9
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The boy with his arms raised",
+        "type": "generated",
+        "score": 19.837070333576957
+      },
+      "best_gaze_candidate": {
+        "text": "Man holding child",
+        "type": "generated",
+        "score": 33.76001089580551
+      },
+      "best_combined_candidate": {
+        "text": "Man holding child",
+        "type": "generated",
+        "rec_score": 21.896936078241467,
+        "gaze_score": 33.76001089580551,
+        "combined_score": 55.656946974046974
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073113541_2.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          4
+        ],
+        "gaze": [
+          1,
+          3
+        ],
+        "combined": [
+          1,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "hot dude",
+        "type": "gold",
+        "score": 12.418431059609226
+      },
+      "best_gaze_candidate": {
+        "text": "hot dude",
+        "type": "gold",
+        "score": 84.87756860459777
+      },
+      "best_combined_candidate": {
+        "text": "hot dude",
+        "type": "gold",
+        "rec_score": 12.418431059609226,
+        "gaze_score": 84.87756860459777,
+        "combined_score": 97.29599966420699
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073126497_3.jpg",
+      "gold_positions": {
+        "rec": [
+          7,
+          11
+        ],
+        "gaze": [
+          10,
+          5
+        ],
+        "combined": [
+          7,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The image with the red border",
+        "type": "generated",
+        "score": 2.5164404491682206
+      },
+      "best_gaze_candidate": {
+        "text": "The image with the red border",
+        "type": "generated",
+        "score": 1.2430955702237672
+      },
+      "best_combined_candidate": {
+        "text": "The image with the red border",
+        "type": "generated",
+        "rec_score": 2.5164404491682206,
+        "gaze_score": 1.2430955702237672,
+        "combined_score": 3.759536019391988
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073135365_4.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          1,
+          9
+        ],
+        "gaze": [
+          4,
+          1,
+          9
+        ],
+        "combined": [
+          3,
+          1,
+          9
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "person in blue jeans",
+        "type": "gold",
+        "score": 42.09193387010941
+      },
+      "best_gaze_candidate": {
+        "text": "person in blue jeans",
+        "type": "gold",
+        "score": 36.57267049995058
+      },
+      "best_combined_candidate": {
+        "text": "person in blue jeans",
+        "type": "gold",
+        "rec_score": 42.09193387010941,
+        "gaze_score": 36.57267049995058,
+        "combined_score": 78.66460437005999
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073148347_5.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          9,
+          10
+        ],
+        "gaze": [
+          6,
+          8,
+          5
+        ],
+        "combined": [
+          6,
+          10,
+          9
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "Player at bat",
+        "type": "generated",
+        "score": 29.492961671754014
+      },
+      "best_gaze_candidate": {
+        "text": "Hitter",
+        "type": "generated",
+        "score": 54.59687206389328
+      },
+      "best_combined_candidate": {
+        "text": "Hitter",
+        "type": "generated",
+        "rec_score": 29.49622517806108,
+        "gaze_score": 54.59687206389328,
+        "combined_score": 84.09309724195435
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073173610_6.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          3
+        ],
+        "gaze": [
+          3,
+          1
+        ],
+        "combined": [
+          2,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "boy on left white shirt",
+        "type": "gold",
+        "score": 10.224346527325347
+      },
+      "best_gaze_candidate": {
+        "text": "guy in white shirt in back",
+        "type": "gold",
+        "score": 51.34099874343438
+      },
+      "best_combined_candidate": {
+        "text": "guy in white shirt in back",
+        "type": "gold",
+        "rec_score": 18.035887933113536,
+        "gaze_score": 51.34099874343438,
+        "combined_score": 69.37688667654791
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073178147_7.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          12,
+          11
+        ],
+        "gaze": [
+          8,
+          10,
+          7
+        ],
+        "combined": [
+          8,
+          10,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "the toast",
+        "type": "generated",
+        "score": 4.038969032715632
+      },
+      "best_gaze_candidate": {
+        "text": "The bread",
+        "type": "generated",
+        "score": 42.29787440499313
+      },
+      "best_combined_candidate": {
+        "text": "The bread",
+        "type": "generated",
+        "rec_score": 4.038969032715632,
+        "gaze_score": 42.29787440499313,
+        "combined_score": 46.336843437708765
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073191159_8.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          3,
+          1
+        ],
+        "gaze": [
+          2,
+          11,
+          1
+        ],
+        "combined": [
+          2,
+          11,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "GUY IN BLACK NAD WHITE SHORTS",
+        "type": "gold",
+        "score": 16.709959733019062
+      },
+      "best_gaze_candidate": {
+        "text": "GUY IN BLACK NAD WHITE SHORTS",
+        "type": "gold",
+        "score": 4.488499144277571
+      },
+      "best_combined_candidate": {
+        "text": "GUY IN BLACK NAD WHITE SHORTS",
+        "type": "gold",
+        "rec_score": 16.709959733019062,
+        "gaze_score": 4.488499144277571,
+        "combined_score": 21.198458877296634
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073200187_9.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          4,
+          5
+        ],
+        "gaze": [
+          3,
+          1,
+          6
+        ],
+        "combined": [
+          4,
+          2,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The elephant with its trunk raised and mouth open",
+        "type": "generated",
+        "score": 20.378814269287385
+      },
+      "best_gaze_candidate": {
+        "text": "second elephant from left",
+        "type": "gold",
+        "score": 18.08856041400617
+      },
+      "best_combined_candidate": {
+        "text": "The elephant in the front",
+        "type": "generated",
+        "rec_score": 21.873808724976655,
+        "gaze_score": 33.60768326138766,
+        "combined_score": 55.48149198636432
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073209293_10.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          1,
+          12
+        ],
+        "gaze": [
+          4,
+          8,
+          12
+        ],
+        "combined": [
+          7,
+          5,
+          12
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "crouching dude foreground",
+        "type": "gold",
+        "score": 36.15989897661993
+      },
+      "best_gaze_candidate": {
+        "text": "The boy in the blue shirt and plaid pants",
+        "type": "generated",
+        "score": 8.033322508270382
+      },
+      "best_combined_candidate": {
+        "text": "The boy in the blue shirt and plaid pants",
+        "type": "generated",
+        "rec_score": 39.29853695512305,
+        "gaze_score": 8.033322508270382,
+        "combined_score": 47.33185946339343
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073218396_11.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          9,
+          11
+        ],
+        "gaze": [
+          9,
+          1,
+          11
+        ],
+        "combined": [
+          9,
+          1,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The monitor",
+        "type": "generated",
+        "score": 8.663029991537396
+      },
+      "best_gaze_candidate": {
+        "text": "The top screen.",
+        "type": "gold",
+        "score": 9.46305359218058
+      },
+      "best_combined_candidate": {
+        "text": "The top screen.",
+        "type": "gold",
+        "rec_score": 8.663029991537396,
+        "gaze_score": 9.46305359218058,
+        "combined_score": 18.12608358371798
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073231714_12.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          8
+        ],
+        "gaze": [
+          10,
+          9
+        ],
+        "combined": [
+          7,
+          8
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "Home run position",
+        "type": "generated",
+        "score": 30.58256481991199
+      },
+      "best_gaze_candidate": {
+        "text": "Home plate",
+        "type": "generated",
+        "score": 9.153437102402961
+      },
+      "best_combined_candidate": {
+        "text": "Home run position",
+        "type": "generated",
+        "rec_score": 30.58256481991199,
+        "gaze_score": 42.35939237704377,
+        "combined_score": 72.94195719695576
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073257013_13.jpg",
+      "gold_positions": {
+        "rec": [
+          9,
+          10,
+          8
+        ],
+        "gaze": [
+          1,
+          3,
+          5
+        ],
+        "combined": [
+          5,
+          8,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The person with the red box around them",
+        "type": "generated",
+        "score": 18.77605293604414
+      },
+      "best_gaze_candidate": {
+        "text": "person with blue shirt",
+        "type": "gold",
+        "score": 23.271519837277918
+      },
+      "best_combined_candidate": {
+        "text": "The person with gray hair in the front",
+        "type": "generated",
+        "rec_score": 23.56820378762669,
+        "gaze_score": 23.887792576327154,
+        "combined_score": 47.455996363953844
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073266129_14.jpg",
+      "gold_positions": {
+        "rec": [
+          7,
+          5,
+          4
+        ],
+        "gaze": [
+          3,
+          1,
+          2
+        ],
+        "combined": [
+          6,
+          1,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The person in the middle wearing black",
+        "type": "generated",
+        "score": 36.306692459272824
+      },
+      "best_gaze_candidate": {
+        "text": "man with arms crossed",
+        "type": "gold",
+        "score": 49.2155184171135
+      },
+      "best_combined_candidate": {
+        "text": "man with arms crossed",
+        "type": "gold",
+        "rec_score": 45.73532972583462,
+        "gaze_score": 49.2155184171135,
+        "combined_score": 94.95084814294812
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073270691_15.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          3
+        ],
+        "gaze": [
+          4,
+          3
+        ],
+        "combined": [
+          4,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The lamb on the left",
+        "type": "generated",
+        "score": 22.297942955965258
+      },
+      "best_gaze_candidate": {
+        "text": "The little black lamb in the red-outlined box",
+        "type": "generated",
+        "score": 25.283579765869437
+      },
+      "best_combined_candidate": {
+        "text": "The little black lamb in the red-outlined box",
+        "type": "generated",
+        "rec_score": 22.297942955965258,
+        "gaze_score": 25.283579765869437,
+        "combined_score": 47.581522721834695
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073279604_16.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          7,
+          6
+        ],
+        "gaze": [
+          1,
+          5,
+          3
+        ],
+        "combined": [
+          10,
+          4,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "One of the apples",
+        "type": "generated",
+        "score": 12.488764615470389
+      },
+      "best_gaze_candidate": {
+        "text": "apple on left",
+        "type": "gold",
+        "score": 0.79275492469336
+      },
+      "best_combined_candidate": {
+        "text": "The red apple",
+        "type": "generated",
+        "rec_score": 12.488764615470389,
+        "gaze_score": 8.527008802659111,
+        "combined_score": 21.0157734181295
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073288596_17.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          3,
+          1
+        ],
+        "gaze": [
+          2,
+          1,
+          3
+        ],
+        "combined": [
+          8,
+          1,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "black object lower left corner",
+        "type": "gold",
+        "score": 35.438975842318655
+      },
+      "best_gaze_candidate": {
+        "text": "black pants on bottom leaning",
+        "type": "gold",
+        "score": 10.330121606170891
+      },
+      "best_combined_candidate": {
+        "text": "black pants on bottom leaning",
+        "type": "gold",
+        "rec_score": 41.03225237290919,
+        "gaze_score": 10.330121606170891,
+        "combined_score": 51.36237397908008
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073297578_18.jpg",
+      "gold_positions": {
+        "rec": [
+          4
+        ],
+        "gaze": [
+          6
+        ],
+        "combined": [
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The umpire",
+        "type": "generated",
+        "score": 45.63208355714991
+      },
+      "best_gaze_candidate": {
+        "text": "Home plate umpire",
+        "type": "generated",
+        "score": 38.95740149878509
+      },
+      "best_combined_candidate": {
+        "text": "Home plate umpire",
+        "type": "generated",
+        "rec_score": 46.446276974788795,
+        "gaze_score": 38.95740149878509,
+        "combined_score": 85.40367847357388
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073314704_19.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          10,
+          9
+        ],
+        "gaze": [
+          9,
+          10,
+          7
+        ],
+        "combined": [
+          11,
+          9,
+          8
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The chef in the middle",
+        "type": "generated",
+        "score": 42.18744015613555
+      },
+      "best_gaze_candidate": {
+        "text": "The chef in the white button-down jacket",
+        "type": "generated",
+        "score": 56.537852218580234
+      },
+      "best_combined_candidate": {
+        "text": "The chef in the white button-down jacket",
+        "type": "generated",
+        "rec_score": 42.47380763838484,
+        "gaze_score": 56.537852218580234,
+        "combined_score": 99.01165985696508
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073332329_20.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          1,
+          12
+        ],
+        "gaze": [
+          2,
+          3,
+          1
+        ],
+        "combined": [
+          2,
+          3,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "person in bottom left corner",
+        "type": "gold",
+        "score": 50.65849182338729
+      },
+      "best_gaze_candidate": {
+        "text": "PERSON IN PLAID SHIRT ON LEFT CORNER",
+        "type": "gold",
+        "score": 12.172391903653779
+      },
+      "best_combined_candidate": {
+        "text": "PERSON IN PLAID SHIRT ON LEFT CORNER",
+        "type": "gold",
+        "rec_score": 69.2732154866458,
+        "gaze_score": 12.172391903653779,
+        "combined_score": 81.44560739029957
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073336824_21.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          7,
+          5
+        ],
+        "gaze": [
+          2,
+          3,
+          1
+        ],
+        "combined": [
+          4,
+          5,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The fenced off area",
+        "type": "generated",
+        "score": 35.9444724904965
+      },
+      "best_gaze_candidate": {
+        "text": "left edge of pic: cutoff person",
+        "type": "gold",
+        "score": 51.11203947725384
+      },
+      "best_combined_candidate": {
+        "text": "The lower half of skier number 93",
+        "type": "generated",
+        "rec_score": 40.38389060314785,
+        "gaze_score": 57.87479534402044,
+        "combined_score": 98.25868594716829
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073341391_22.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          2
+        ],
+        "gaze": [
+          3,
+          2
+        ],
+        "combined": [
+          3,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "left guy",
+        "type": "gold",
+        "score": 28.325746231505146
+      },
+      "best_gaze_candidate": {
+        "text": "The man in the black shirt and khaki pants",
+        "type": "generated",
+        "score": 18.77124079262776
+      },
+      "best_combined_candidate": {
+        "text": "The man in the black shirt and khaki pants",
+        "type": "generated",
+        "rec_score": 29.89259116313497,
+        "gaze_score": 18.77124079262776,
+        "combined_score": 48.66383195576273
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073350496_23.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          4,
+          9
+        ],
+        "gaze": [
+          4,
+          8,
+          12
+        ],
+        "combined": [
+          10,
+          6,
+          12
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The traffic light in the middle",
+        "type": "generated",
+        "score": 2.97861914380775
+      },
+      "best_gaze_candidate": {
+        "text": "Three-light device",
+        "type": "generated",
+        "score": 9.664539904939616
+      },
+      "best_combined_candidate": {
+        "text": "The traffic light in the middle",
+        "type": "generated",
+        "rec_score": 2.97861914380775,
+        "gaze_score": 15.131551107898387,
+        "combined_score": 18.110170251706137
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073363481_24.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          3,
+          8
+        ],
+        "gaze": [
+          8,
+          5,
+          2
+        ],
+        "combined": [
+          1,
+          3,
+          8
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "center wine glass - tiny amount of dark wine",
+        "type": "gold",
+        "score": 13.553433308030336
+      },
+      "best_gaze_candidate": {
+        "text": "The bottle opener",
+        "type": "generated",
+        "score": 25.21761585136255
+      },
+      "best_combined_candidate": {
+        "text": "center wine glass - tiny amount of dark wine",
+        "type": "gold",
+        "rec_score": 13.553433308030336,
+        "gaze_score": 25.954352472133184,
+        "combined_score": 39.507785780163516
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073368040_25.jpg",
+      "gold_positions": {
+        "rec": [
+          6
+        ],
+        "gaze": [
+          4
+        ],
+        "combined": [
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "He",
+        "type": "generated",
+        "score": 33.15200301310994
+      },
+      "best_gaze_candidate": {
+        "text": "The first baseman",
+        "type": "generated",
+        "score": 41.70271855684291
+      },
+      "best_combined_candidate": {
+        "text": "The first baseman",
+        "type": "generated",
+        "rec_score": 41.70271855684291,
+        "gaze_score": 41.70271855684291,
+        "combined_score": 83.40543711368582
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073381044_26.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          5,
+          3
+        ],
+        "gaze": [
+          4,
+          3,
+          8
+        ],
+        "combined": [
+          3,
+          2,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "Child in gray shirt",
+        "type": "generated",
+        "score": 39.63900242005779
+      },
+      "best_gaze_candidate": {
+        "text": "The boy in the gray shirt",
+        "type": "generated",
+        "score": 60.807712986687385
+      },
+      "best_combined_candidate": {
+        "text": "The boy in the brown shirt with his hand over",
+        "type": "generated",
+        "rec_score": 39.63900242005779,
+        "gaze_score": 60.807712986687385,
+        "combined_score": 100.44671540674517
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073390247_27.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          11
+        ],
+        "gaze": [
+          5,
+          2
+        ],
+        "combined": [
+          2,
+          10
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The central figure riding a white horse",
+        "type": "generated",
+        "score": 19.36108183094791
+      },
+      "best_gaze_candidate": {
+        "text": "The man in the middle holding gun and steering",
+        "type": "generated",
+        "score": 3.03753073194164
+      },
+      "best_combined_candidate": {
+        "text": "The man in the middle holding gun and steering",
+        "type": "generated",
+        "rec_score": 24.70143861610221,
+        "gaze_score": 3.03753073194164,
+        "combined_score": 27.73896934804385
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073394813_28.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          2,
+          8
+        ],
+        "gaze": [
+          8,
+          2,
+          6
+        ],
+        "combined": [
+          4,
+          1,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The mattress",
+        "type": "generated",
+        "score": 20.29701809470359
+      },
+      "best_gaze_candidate": {
+        "text": "The highlighted object is the black bag with a white",
+        "type": "generated",
+        "score": 15.447308954526928
+      },
+      "best_combined_candidate": {
+        "text": "BED ON LEFT",
+        "type": "gold",
+        "rec_score": 20.786053902218963,
+        "gaze_score": 23.10667505707059,
+        "combined_score": 43.892728959289556
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073412770_29.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          9
+        ],
+        "gaze": [
+          2,
+          6
+        ],
+        "combined": [
+          2,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The horse in the red box",
+        "type": "generated",
+        "score": 12.624762263600093
+      },
+      "best_gaze_candidate": {
+        "text": "The horse on the left side of image is",
+        "type": "generated",
+        "score": 33.499076613112344
+      },
+      "best_combined_candidate": {
+        "text": "The horse on the left side of image is",
+        "type": "generated",
+        "rec_score": 22.34642697516028,
+        "gaze_score": 33.499076613112344,
+        "combined_score": 55.84550358827262
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073421826_30.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          3
+        ],
+        "gaze": [
+          3,
+          1
+        ],
+        "combined": [
+          2,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "train",
+        "type": "generated",
+        "score": 6.863472186937451
+      },
+      "best_gaze_candidate": {
+        "text": "green and yellow train",
+        "type": "gold",
+        "score": 21.78027110217853
+      },
+      "best_combined_candidate": {
+        "text": "green and yellow train",
+        "type": "gold",
+        "rec_score": 16.6552636086202,
+        "gaze_score": 21.78027110217853,
+        "combined_score": 38.435534710798734
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073435088_31.jpg",
+      "gold_positions": {
+        "rec": [
+          9,
+          8,
+          4
+        ],
+        "gaze": [
+          9,
+          2,
+          7
+        ],
+        "combined": [
+          9,
+          2,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The person in black pants",
+        "type": "generated",
+        "score": 45.65177585385757
+      },
+      "best_gaze_candidate": {
+        "text": "The person in black pants",
+        "type": "generated",
+        "score": 31.661314584442277
+      },
+      "best_combined_candidate": {
+        "text": "The person in black pants",
+        "type": "generated",
+        "rec_score": 45.65177585385757,
+        "gaze_score": 31.661314584442277,
+        "combined_score": 77.31309043829985
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073444208_32.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          12,
+          3
+        ],
+        "gaze": [
+          3,
+          7,
+          5
+        ],
+        "combined": [
+          3,
+          12,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The child and motorcycle",
+        "type": "generated",
+        "score": 36.87652805330579
+      },
+      "best_gaze_candidate": {
+        "text": "The motorcycle",
+        "type": "generated",
+        "score": 27.91081357181274
+      },
+      "best_combined_candidate": {
+        "text": "The motorcycle",
+        "type": "generated",
+        "rec_score": 55.348086143672745,
+        "gaze_score": 27.91081357181274,
+        "combined_score": 83.25889971548548
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073453336_33.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          7,
+          12
+        ],
+        "gaze": [
+          1,
+          2,
+          6
+        ],
+        "combined": [
+          2,
+          3,
+          12
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The slice of pizza in the bottom middle",
+        "type": "generated",
+        "score": 16.266263500800093
+      },
+      "best_gaze_candidate": {
+        "text": "bottom slice",
+        "type": "gold",
+        "score": 1.3192742983076335
+      },
+      "best_combined_candidate": {
+        "text": "The pizza slice at the bottom center of",
+        "type": "generated",
+        "rec_score": 18.118300230913157,
+        "gaze_score": 30.961468059387666,
+        "combined_score": 49.07976829030082
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073462457_34.jpg",
+      "gold_positions": {
+        "rec": [
+          7
+        ],
+        "gaze": [
+          7
+        ],
+        "combined": [
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "He",
+        "type": "generated",
+        "score": 19.40921636326329
+      },
+      "best_gaze_candidate": {
+        "text": "number 24",
+        "type": "generated",
+        "score": 47.93030306039142
+      },
+      "best_combined_candidate": {
+        "text": "He",
+        "type": "generated",
+        "rec_score": 19.40921636326329,
+        "gaze_score": 62.74085946294066,
+        "combined_score": 82.15007582620396
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073483551_35.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          11,
+          10
+        ],
+        "gaze": [
+          2,
+          10,
+          4
+        ],
+        "combined": [
+          1,
+          10,
+          9
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The keeper",
+        "type": "generated",
+        "score": 18.340655790146194
+      },
+      "best_gaze_candidate": {
+        "text": "His arm",
+        "type": "generated",
+        "score": 15.848951406070963
+      },
+      "best_combined_candidate": {
+        "text": "boy in black shirt",
+        "type": "gold",
+        "rec_score": 20.86640477351091,
+        "gaze_score": 24.779130941242656,
+        "combined_score": 45.645535714753564
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073492463_36.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          2,
+          9
+        ],
+        "gaze": [
+          7,
+          5,
+          12
+        ],
+        "combined": [
+          6,
+          3,
+          12
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The chair in the living room with turquoise sh",
+        "type": "generated",
+        "score": 34.06758851605792
+      },
+      "best_gaze_candidate": {
+        "text": "The blanket on the chair",
+        "type": "generated",
+        "score": 3.273893981093587
+      },
+      "best_combined_candidate": {
+        "text": "The blanket on the chair",
+        "type": "generated",
+        "rec_score": 40.669790453911446,
+        "gaze_score": 3.273893981093587,
+        "combined_score": 43.94368443500503
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073497031_37.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          3
+        ],
+        "gaze": [
+          6,
+          7
+        ],
+        "combined": [
+          2,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "hotdog",
+        "type": "generated",
+        "score": 61.82984411809624
+      },
+      "best_gaze_candidate": {
+        "text": "El hot dog",
+        "type": "generated",
+        "score": 79.22390470315725
+      },
+      "best_combined_candidate": {
+        "text": "hotdog",
+        "type": "generated",
+        "rec_score": 61.82984411809624,
+        "gaze_score": 80.6035941977846,
+        "combined_score": 142.43343831588084
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073506004_38.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          7
+        ],
+        "gaze": [
+          1,
+          4
+        ],
+        "combined": [
+          1,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The certificate",
+        "type": "generated",
+        "score": 5.656338226488306
+      },
+      "best_gaze_candidate": {
+        "text": "right pape",
+        "type": "gold",
+        "score": 15.984629261976949
+      },
+      "best_combined_candidate": {
+        "text": "right pape",
+        "type": "gold",
+        "rec_score": 5.656338226488306,
+        "gaze_score": 15.984629261976949,
+        "combined_score": 21.640967488465254
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073515110_39.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          6,
+          11
+        ],
+        "gaze": [
+          2,
+          4,
+          3
+        ],
+        "combined": [
+          4,
+          2,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The skateboarder in action",
+        "type": "generated",
+        "score": 21.30370669899563
+      },
+      "best_gaze_candidate": {
+        "text": "The person grling the ramp",
+        "type": "generated",
+        "score": 9.61395511893732
+      },
+      "best_combined_candidate": {
+        "text": "The person grling the ramp",
+        "type": "generated",
+        "rec_score": 52.66563093621683,
+        "gaze_score": 9.61395511893732,
+        "combined_score": 62.27958605515415
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073524088_40.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          1,
+          2
+        ],
+        "gaze": [
+          2,
+          1,
+          11
+        ],
+        "combined": [
+          2,
+          1,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "guy in blac shirt",
+        "type": "gold",
+        "score": 19.840255169331286
+      },
+      "best_gaze_candidate": {
+        "text": "guy in blac shirt",
+        "type": "gold",
+        "score": 28.1352755039679
+      },
+      "best_combined_candidate": {
+        "text": "guy in blac shirt",
+        "type": "gold",
+        "rec_score": 19.840255169331286,
+        "gaze_score": 28.1352755039679,
+        "combined_score": 47.97553067329919
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073528649_41.jpg",
+      "gold_positions": {
+        "rec": [
+          9,
+          10,
+          11
+        ],
+        "gaze": [
+          5,
+          2,
+          1
+        ],
+        "combined": [
+          9,
+          2,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The man in the gray striped shirt",
+        "type": "generated",
+        "score": 6.5542232451429
+      },
+      "best_gaze_candidate": {
+        "text": "lower man in the middle of the higher two",
+        "type": "gold",
+        "score": 58.939600366765696
+      },
+      "best_combined_candidate": {
+        "text": "The man in the blue shirt",
+        "type": "generated",
+        "rec_score": 10.2360002901974,
+        "gaze_score": 62.00950634645906,
+        "combined_score": 72.24550663665646
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073537759_42.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          9
+        ],
+        "gaze": [
+          2,
+          4
+        ],
+        "combined": [
+          7,
+          8
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "Girl brushing teeth",
+        "type": "generated",
+        "score": 13.193630828428697
+      },
+      "best_gaze_candidate": {
+        "text": "The girl with toothbrush in mouth",
+        "type": "generated",
+        "score": 56.07202393457523
+      },
+      "best_combined_candidate": {
+        "text": "Girl brushing teeth",
+        "type": "generated",
+        "rec_score": 13.193630828428697,
+        "gaze_score": 62.43728878165706,
+        "combined_score": 75.63091961008575
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073551073_43.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          8,
+          7
+        ],
+        "gaze": [
+          7,
+          4,
+          9
+        ],
+        "combined": [
+          6,
+          5,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The highlighted hot dog cart",
+        "type": "generated",
+        "score": 8.502639694622042
+      },
+      "best_gaze_candidate": {
+        "text": "the umbrella",
+        "type": "generated",
+        "score": 4.36863883450082
+      },
+      "best_combined_candidate": {
+        "text": "umbrella",
+        "type": "generated",
+        "rec_score": 13.696692584783976,
+        "gaze_score": 10.894942072645875,
+        "combined_score": 24.59163465742985
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073559708_44.jpg",
+      "gold_positions": {
+        "rec": [
+          6,
+          2
+        ],
+        "gaze": [
+          3,
+          11
+        ],
+        "combined": [
+          2,
+          8
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The pizza in the back",
+        "type": "generated",
+        "score": 5.628167200391164
+      },
+      "best_gaze_candidate": {
+        "text": "The highlighted pizza",
+        "type": "generated",
+        "score": 3.3635684020656105
+      },
+      "best_combined_candidate": {
+        "text": "The pizza in the back",
+        "type": "generated",
+        "rec_score": 5.628167200391164,
+        "gaze_score": 3.4957526010966067,
+        "combined_score": 9.12391980148777
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073568821_45.jpg",
+      "gold_positions": {
+        "rec": [
+          7,
+          3,
+          4
+        ],
+        "gaze": [
+          5,
+          3,
+          2
+        ],
+        "combined": [
+          6,
+          3,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The middle and highest-layered sandwich",
+        "type": "generated",
+        "score": 8.908999265978233
+      },
+      "best_gaze_candidate": {
+        "text": "The grilled sandwich",
+        "type": "generated",
+        "score": 12.235377422655347
+      },
+      "best_combined_candidate": {
+        "text": "The grilled sandwich",
+        "type": "generated",
+        "rec_score": 14.494031896396113,
+        "gaze_score": 12.235377422655347,
+        "combined_score": 26.72940931905146
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073577932_46.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          1,
+          9
+        ],
+        "gaze": [
+          9,
+          7,
+          8
+        ],
+        "combined": [
+          8,
+          3,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "person cutting cake",
+        "type": "gold",
+        "score": 96.3207279719596
+      },
+      "best_gaze_candidate": {
+        "text": "The woman holding the knife",
+        "type": "generated",
+        "score": 70.85425912574951
+      },
+      "best_combined_candidate": {
+        "text": "The woman holding the knife",
+        "type": "generated",
+        "rec_score": 101.10062572934984,
+        "gaze_score": 70.85425912574951,
+        "combined_score": 171.95488485509935
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073587044_47.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          6
+        ],
+        "gaze": [
+          8,
+          2
+        ],
+        "combined": [
+          6,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The bunch of bananas",
+        "type": "generated",
+        "score": 24.225197817768336
+      },
+      "best_gaze_candidate": {
+        "text": "The bananas",
+        "type": "generated",
+        "score": 44.121330621480645
+      },
+      "best_combined_candidate": {
+        "text": "The bananas",
+        "type": "generated",
+        "rec_score": 38.89367596593744,
+        "gaze_score": 44.121330621480645,
+        "combined_score": 83.01500658741809
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073599983_48.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          11,
+          5
+        ],
+        "gaze": [
+          11,
+          1,
+          2
+        ],
+        "combined": [
+          9,
+          10,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The laptop",
+        "type": "generated",
+        "score": 22.17578256855355
+      },
+      "best_gaze_candidate": {
+        "text": "laptop right",
+        "type": "gold",
+        "score": 7.644808684093131
+      },
+      "best_combined_candidate": {
+        "text": "right laptop",
+        "type": "gold",
+        "rec_score": 22.17578256855355,
+        "gaze_score": 12.23000657163651,
+        "combined_score": 34.40578914019006
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073621243_49.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          12,
+          4
+        ],
+        "gaze": [
+          4,
+          10,
+          5
+        ],
+        "combined": [
+          3,
+          12,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The giraffe in the lower portion of photo",
+        "type": "generated",
+        "score": 34.39594371746793
+      },
+      "best_gaze_candidate": {
+        "text": "The giraffe in the lower portion of photo",
+        "type": "generated",
+        "score": 26.038388236294146
+      },
+      "best_combined_candidate": {
+        "text": "The giraffe in the lower portion of photo",
+        "type": "generated",
+        "rec_score": 34.39594371746793,
+        "gaze_score": 26.038388236294146,
+        "combined_score": 60.434331953762076
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073625810_50.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          12,
+          2
+        ],
+        "gaze": [
+          2,
+          11,
+          4
+        ],
+        "combined": [
+          5,
+          11,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The person lying on the floor wearing black clothing",
+        "type": "generated",
+        "score": 7.68770328985652
+      },
+      "best_gaze_candidate": {
+        "text": "The guy in the black shirt",
+        "type": "generated",
+        "score": 39.072776381574606
+      },
+      "best_combined_candidate": {
+        "text": "The person lying on the floor wearing black clothing",
+        "type": "generated",
+        "rec_score": 7.68770328985652,
+        "gaze_score": 45.40195749953447,
+        "combined_score": 53.08966078939099
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073630372_51.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          3,
+          4
+        ],
+        "gaze": [
+          10,
+          5,
+          11
+        ],
+        "combined": [
+          7,
+          2,
+          9
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The pony with the back leg raised",
+        "type": "generated",
+        "score": 14.873935022658202
+      },
+      "best_gaze_candidate": {
+        "text": "The horse's back left leg",
+        "type": "generated",
+        "score": 9.33499745498016
+      },
+      "best_combined_candidate": {
+        "text": "The pony with the back leg raised",
+        "type": "generated",
+        "rec_score": 14.873935022658202,
+        "gaze_score": 15.256910064196143,
+        "combined_score": 30.130845086854343
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073639487_52.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          12,
+          10
+        ],
+        "gaze": [
+          9,
+          10,
+          11
+        ],
+        "combined": [
+          10,
+          12,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The television",
+        "type": "generated",
+        "score": 7.794138226200214
+      },
+      "best_gaze_candidate": {
+        "text": "The old tube TV",
+        "type": "generated",
+        "score": 5.3375494788447115
+      },
+      "best_combined_candidate": {
+        "text": "The old tube TV",
+        "type": "generated",
+        "rec_score": 9.825029634261451,
+        "gaze_score": 5.3375494788447115,
+        "combined_score": 15.162579113106162
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073648384_53.jpg",
+      "gold_positions": {
+        "rec": [
+          9,
+          4,
+          6
+        ],
+        "gaze": [
+          9,
+          3,
+          5
+        ],
+        "combined": [
+          10,
+          3,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The bottle to the left of wine glasses in",
+        "type": "generated",
+        "score": 13.966417984709736
+      },
+      "best_gaze_candidate": {
+        "text": "The bottle with a green image on the label,",
+        "type": "generated",
+        "score": 17.709038125308318
+      },
+      "best_combined_candidate": {
+        "text": "The bottle with a green image on the label,",
+        "type": "generated",
+        "rec_score": 24.95594781457167,
+        "gaze_score": 17.709038125308318,
+        "combined_score": 42.66498593987998
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073657495_54.jpg",
+      "gold_positions": {
+        "rec": [
+          2,
+          3,
+          1
+        ],
+        "gaze": [
+          2,
+          4,
+          3
+        ],
+        "combined": [
+          2,
+          3,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "peron in red on the left, cut off",
+        "type": "gold",
+        "score": 53.32537356455577
+      },
+      "best_gaze_candidate": {
+        "text": "The red box highlights the arm of person in",
+        "type": "generated",
+        "score": 16.97529735437363
+      },
+      "best_combined_candidate": {
+        "text": "peron in red on the left, cut off",
+        "type": "gold",
+        "rec_score": 53.32537356455577,
+        "gaze_score": 19.77350101366561,
+        "combined_score": 73.09887457822137
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073662057_55.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          5,
+          4
+        ],
+        "gaze": [
+          11,
+          2,
+          10
+        ],
+        "combined": [
+          12,
+          4,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The laptop in the middle of screen",
+        "type": "generated",
+        "score": 26.696345319538533
+      },
+      "best_gaze_candidate": {
+        "text": "Laptop computer",
+        "type": "generated",
+        "score": 6.8405939125413076
+      },
+      "best_combined_candidate": {
+        "text": "The laptop in the middle of screen",
+        "type": "generated",
+        "rec_score": 26.696345319538533,
+        "gaze_score": 26.765528994539732,
+        "combined_score": 53.461874314078266
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073675501_56.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          5,
+          3
+        ],
+        "gaze": [
+          2,
+          4,
+          5
+        ],
+        "combined": [
+          2,
+          4,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The first two stuffed bears",
+        "type": "generated",
+        "score": 19.44569753608451
+      },
+      "best_gaze_candidate": {
+        "text": "The bear in the front left",
+        "type": "generated",
+        "score": 38.710240682084155
+      },
+      "best_combined_candidate": {
+        "text": "The first two stuffed bears",
+        "type": "generated",
+        "rec_score": 19.44569753608451,
+        "gaze_score": 61.38450575130133,
+        "combined_score": 80.83020328738584
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073684478_57.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          9,
+          1
+        ],
+        "gaze": [
+          7,
+          5,
+          6
+        ],
+        "combined": [
+          4,
+          7,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "person in a checked shirt",
+        "type": "gold",
+        "score": 16.495807499261996
+      },
+      "best_gaze_candidate": {
+        "text": "The plaid-sleeved elbow",
+        "type": "generated",
+        "score": 8.147475075244326
+      },
+      "best_combined_candidate": {
+        "text": "person in a checked shirt",
+        "type": "gold",
+        "rec_score": 16.495807499261996,
+        "gaze_score": 9.67640325827528,
+        "combined_score": 26.17221075753728
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073689038_58.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          5
+        ],
+        "gaze": [
+          1,
+          2
+        ],
+        "combined": [
+          1,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The crossed legs",
+        "type": "generated",
+        "score": 7.112790297664942
+      },
+      "best_gaze_candidate": {
+        "text": "blue jeans man on the right",
+        "type": "gold",
+        "score": 5.229549294017293
+      },
+      "best_combined_candidate": {
+        "text": "blue jeans man on the right",
+        "type": "gold",
+        "rec_score": 7.9762574480379,
+        "gaze_score": 5.229549294017293,
+        "combined_score": 13.205806742055191
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073698004_59.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          1,
+          4
+        ],
+        "gaze": [
+          4,
+          10,
+          3
+        ],
+        "combined": [
+          2,
+          4,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "pink",
+        "type": "gold",
+        "score": 11.131731949325763
+      },
+      "best_gaze_candidate": {
+        "text": "The doughnut with pink frosting",
+        "type": "generated",
+        "score": 12.479474994130962
+      },
+      "best_combined_candidate": {
+        "text": "The doughnut with pink frosting",
+        "type": "generated",
+        "rec_score": 15.458599906668542,
+        "gaze_score": 12.479474994130962,
+        "combined_score": 27.938074900799506
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073707786_60.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          12,
+          5
+        ],
+        "gaze": [
+          1,
+          12,
+          2
+        ],
+        "combined": [
+          2,
+          12,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The zebra facing away from the viewers",
+        "type": "generated",
+        "score": 16.032731200100972
+      },
+      "best_gaze_candidate": {
+        "text": "right most zebra",
+        "type": "gold",
+        "score": 17.01427350963514
+      },
+      "best_combined_candidate": {
+        "text": "The zebra on the right side of group",
+        "type": "generated",
+        "rec_score": 17.533262438355305,
+        "gaze_score": 17.941677656350798,
+        "combined_score": 35.4749400947061
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073717581_61.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          2,
+          6
+        ],
+        "gaze": [
+          5,
+          2,
+          11
+        ],
+        "combined": [
+          6,
+          2,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The zebra in the center",
+        "type": "generated",
+        "score": 23.208462012492287
+      },
+      "best_gaze_candidate": {
+        "text": "the middle zebra",
+        "type": "generated",
+        "score": 9.0597043311927
+      },
+      "best_combined_candidate": {
+        "text": "the middle zebra",
+        "type": "generated",
+        "rec_score": 27.923401556029248,
+        "gaze_score": 9.0597043311927,
+        "combined_score": 36.983105887221946
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073736807_62.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          3,
+          2
+        ],
+        "gaze": [
+          5,
+          4,
+          7
+        ],
+        "combined": [
+          5,
+          2,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The giraffe in the left rectangle",
+        "type": "generated",
+        "score": 33.40015600496295
+      },
+      "best_gaze_candidate": {
+        "text": "The smaller giraffe in the left part of",
+        "type": "generated",
+        "score": 24.695401023942228
+      },
+      "best_combined_candidate": {
+        "text": "The giraffe in the left rectangle",
+        "type": "generated",
+        "rec_score": 33.40015600496295,
+        "gaze_score": 25.96135487805322,
+        "combined_score": 59.36151088301617
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073746473_63.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          4
+        ],
+        "gaze": [
+          5,
+          2
+        ],
+        "combined": [
+          2,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The person in the red box is one wearing",
+        "type": "generated",
+        "score": 26.850590549417472
+      },
+      "best_gaze_candidate": {
+        "text": "the person on right",
+        "type": "generated",
+        "score": 61.51230071609949
+      },
+      "best_combined_candidate": {
+        "text": "The person in the red box is one wearing",
+        "type": "generated",
+        "rec_score": 26.850590549417472,
+        "gaze_score": 78.47996514919537,
+        "combined_score": 105.33055569861284
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073756220_64.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          7
+        ],
+        "gaze": [
+          3,
+          4
+        ],
+        "combined": [
+          7,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The dishwasher's door",
+        "type": "generated",
+        "score": 4.569863087062905
+      },
+      "best_gaze_candidate": {
+        "text": "washer",
+        "type": "generated",
+        "score": 44.088633479794225
+      },
+      "best_combined_candidate": {
+        "text": "The dishwasher's door",
+        "type": "generated",
+        "rec_score": 4.569863087062905,
+        "gaze_score": 48.28205764432942,
+        "combined_score": 52.851920731392326
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073774619_65.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          3,
+          2
+        ],
+        "gaze": [
+          7,
+          5,
+          10
+        ],
+        "combined": [
+          1,
+          2,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "blue guy",
+        "type": "gold",
+        "score": 11.039596286126729
+      },
+      "best_gaze_candidate": {
+        "text": "The person holding the baby",
+        "type": "generated",
+        "score": 25.34254460285652
+      },
+      "best_combined_candidate": {
+        "text": "blue guy",
+        "type": "gold",
+        "rec_score": 11.039596286126729,
+        "gaze_score": 29.83375070302546,
+        "combined_score": 40.87334698915219
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073783993_66.jpg",
+      "gold_positions": {
+        "rec": [
+          7,
+          2
+        ],
+        "gaze": [
+          2,
+          3
+        ],
+        "combined": [
+          2,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The middle one",
+        "type": "generated",
+        "score": 28.126761838993332
+      },
+      "best_gaze_candidate": {
+        "text": "The man who is grooming the elephant's tusk",
+        "type": "generated",
+        "score": 27.37573083609491
+      },
+      "best_combined_candidate": {
+        "text": "The man who is grooming the elephant's tusk",
+        "type": "generated",
+        "rec_score": 34.033232425832836,
+        "gaze_score": 27.37573083609491,
+        "combined_score": 61.408963261927745
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073788796_67.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          3,
+          2
+        ],
+        "gaze": [
+          9,
+          10,
+          6
+        ],
+        "combined": [
+          9,
+          10,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "Apple Mac laptop",
+        "type": "generated",
+        "score": 10.408754469301822
+      },
+      "best_gaze_candidate": {
+        "text": "The laptop on top of the orange microwave",
+        "type": "generated",
+        "score": 12.39200817234187
+      },
+      "best_combined_candidate": {
+        "text": "The laptop on top of the orange microwave",
+        "type": "generated",
+        "rec_score": 11.58036340798657,
+        "gaze_score": 12.39200817234187,
+        "combined_score": 23.97237158032844
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073798291_68.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          1,
+          2
+        ],
+        "gaze": [
+          5,
+          10,
+          6
+        ],
+        "combined": [
+          11,
+          7,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "cat in back",
+        "type": "gold",
+        "score": 7.236453014352476
+      },
+      "best_gaze_candidate": {
+        "text": "The top cat",
+        "type": "generated",
+        "score": 5.145987224059241
+      },
+      "best_combined_candidate": {
+        "text": "top cat",
+        "type": "gold",
+        "rec_score": 10.679245363124032,
+        "gaze_score": 6.7252774816726735,
+        "combined_score": 17.404522844796706
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073807960_69.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          4,
+          7
+        ],
+        "gaze": [
+          2,
+          3,
+          1
+        ],
+        "combined": [
+          1,
+          2,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "closed fridge between the lady and open doored one",
+        "type": "gold",
+        "score": 28.099259570371856
+      },
+      "best_gaze_candidate": {
+        "text": "middle fridge",
+        "type": "gold",
+        "score": 36.377127428363764
+      },
+      "best_combined_candidate": {
+        "text": "closed fridge between the lady and open doored one",
+        "type": "gold",
+        "rec_score": 28.099259570371856,
+        "gaze_score": 39.71228390876142,
+        "combined_score": 67.81154347913328
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073817009_70.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          12,
+          4
+        ],
+        "gaze": [
+          2,
+          9,
+          10
+        ],
+        "combined": [
+          11,
+          12,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "She",
+        "type": "generated",
+        "score": 56.63198497023459
+      },
+      "best_gaze_candidate": {
+        "text": "woman on the left",
+        "type": "generated",
+        "score": 48.10666946564767
+      },
+      "best_combined_candidate": {
+        "text": "She",
+        "type": "generated",
+        "rec_score": 56.63198497023459,
+        "gaze_score": 50.19148957384638,
+        "combined_score": 106.82347454408097
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073826658_71.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          2,
+          1
+        ],
+        "gaze": [
+          10,
+          8,
+          9
+        ],
+        "combined": [
+          7,
+          2,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "sitting down",
+        "type": "gold",
+        "score": 5.985122813204177
+      },
+      "best_gaze_candidate": {
+        "text": "The woman in the red box is on far",
+        "type": "generated",
+        "score": 44.30162471029128
+      },
+      "best_combined_candidate": {
+        "text": "sitting down",
+        "type": "gold",
+        "rec_score": 5.985122813204177,
+        "gaze_score": 50.883321629873336,
+        "combined_score": 56.868444443077514
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073836935_72.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          10,
+          11
+        ],
+        "gaze": [
+          6,
+          10,
+          5
+        ],
+        "combined": [
+          7,
+          9,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The person sitting in a red box",
+        "type": "generated",
+        "score": 27.645931222501243
+      },
+      "best_gaze_candidate": {
+        "text": "The person sitting in a red box",
+        "type": "generated",
+        "score": 62.48514835320282
+      },
+      "best_combined_candidate": {
+        "text": "The person sitting in a red box",
+        "type": "generated",
+        "rec_score": 27.645931222501243,
+        "gaze_score": 62.48514835320282,
+        "combined_score": 90.13107957570406
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073846757_73.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          9,
+          10
+        ],
+        "gaze": [
+          9,
+          12,
+          3
+        ],
+        "combined": [
+          9,
+          10,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The man in the poster",
+        "type": "generated",
+        "score": 23.207417416210905
+      },
+      "best_gaze_candidate": {
+        "text": "The man holding a baseball bat",
+        "type": "generated",
+        "score": 57.20994470176459
+      },
+      "best_combined_candidate": {
+        "text": "The man holding a baseball bat",
+        "type": "generated",
+        "rec_score": 23.207417416210905,
+        "gaze_score": 57.20994470176459,
+        "combined_score": 80.4173621179755
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073856399_74.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          2
+        ],
+        "gaze": [
+          1,
+          9
+        ],
+        "combined": [
+          2,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The highlighted object is: little girl in pink",
+        "type": "generated",
+        "score": 14.951925691123568
+      },
+      "best_gaze_candidate": {
+        "text": "baby on lap",
+        "type": "gold",
+        "score": 49.98114603341999
+      },
+      "best_combined_candidate": {
+        "text": "The highlighted object is: little girl in pink",
+        "type": "generated",
+        "rec_score": 14.951925691123568,
+        "gaze_score": 53.208380499713506,
+        "combined_score": 68.16030619083708
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073865650_75.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          5,
+          2
+        ],
+        "gaze": [
+          1,
+          3,
+          4
+        ],
+        "combined": [
+          1,
+          5,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The sheep in the middle left of image",
+        "type": "generated",
+        "score": 14.595278007732015
+      },
+      "best_gaze_candidate": {
+        "text": "left goat",
+        "type": "gold",
+        "score": 13.889687485350226
+      },
+      "best_combined_candidate": {
+        "text": "left goat",
+        "type": "gold",
+        "rec_score": 14.87635281026521,
+        "gaze_score": 13.889687485350226,
+        "combined_score": 28.766040295615436
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073875265_76.jpg",
+      "gold_positions": {
+        "rec": [
+          9,
+          10,
+          12
+        ],
+        "gaze": [
+          9,
+          10,
+          12
+        ],
+        "combined": [
+          9,
+          10,
+          12
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The woman in the middle",
+        "type": "generated",
+        "score": 17.783756173817462
+      },
+      "best_gaze_candidate": {
+        "text": "The player in the middle of front row",
+        "type": "generated",
+        "score": 35.78494670552946
+      },
+      "best_combined_candidate": {
+        "text": "The person in the middle of front row",
+        "type": "generated",
+        "rec_score": 17.783756173817462,
+        "gaze_score": 35.78494670552946,
+        "combined_score": 53.568702879346915
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073880320_77.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          3
+        ],
+        "gaze": [
+          7,
+          9
+        ],
+        "combined": [
+          8,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The woman in the center",
+        "type": "generated",
+        "score": 21.43952632466231
+      },
+      "best_gaze_candidate": {
+        "text": "The lady holding the horse's head",
+        "type": "generated",
+        "score": 60.06009876465106
+      },
+      "best_combined_candidate": {
+        "text": "The woman in the center",
+        "type": "generated",
+        "rec_score": 21.43952632466231,
+        "gaze_score": 62.97312963846872,
+        "combined_score": 84.41265596313103
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073890312_78.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          4,
+          2
+        ],
+        "gaze": [
+          6,
+          10,
+          5
+        ],
+        "combined": [
+          6,
+          7,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The woman seated on the couch holding a glass of",
+        "type": "generated",
+        "score": 39.68788291212703
+      },
+      "best_gaze_candidate": {
+        "text": "The woman lying on the couch",
+        "type": "generated",
+        "score": 35.29596983846342
+      },
+      "best_combined_candidate": {
+        "text": "The woman seated on the couch holding a glass of",
+        "type": "generated",
+        "rec_score": 39.68788291212703,
+        "gaze_score": 38.688872842865194,
+        "combined_score": 78.37675575499222
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073900189_79.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          12,
+          10
+        ],
+        "gaze": [
+          2,
+          11,
+          12
+        ],
+        "combined": [
+          1,
+          12,
+          10
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "guy in the back emptying container",
+        "type": "gold",
+        "score": 18.629088977693833
+      },
+      "best_gaze_candidate": {
+        "text": "The man with the apron and bucket",
+        "type": "generated",
+        "score": 2.957919964068503
+      },
+      "best_combined_candidate": {
+        "text": "guy in the back emptying container",
+        "type": "gold",
+        "rec_score": 18.629088977693833,
+        "gaze_score": 3.1466309932346763,
+        "combined_score": 21.77571997092851
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073905101_80.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          5
+        ],
+        "gaze": [
+          4,
+          11
+        ],
+        "combined": [
+          6,
+          9
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The container of small orange squares",
+        "type": "generated",
+        "score": 13.548226485099109
+      },
+      "best_gaze_candidate": {
+        "text": "The container of small orange squares",
+        "type": "generated",
+        "score": 15.373213150093516
+      },
+      "best_combined_candidate": {
+        "text": "The container of small orange squares",
+        "type": "generated",
+        "rec_score": 13.548226485099109,
+        "gaze_score": 15.373213150093516,
+        "combined_score": 28.921439635192627
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073915017_81.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          3,
+          1
+        ],
+        "gaze": [
+          10,
+          1,
+          5
+        ],
+        "combined": [
+          12,
+          2,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "guy i white",
+        "type": "gold",
+        "score": 54.66645885089388
+      },
+      "best_gaze_candidate": {
+        "text": "white shirt tasting",
+        "type": "gold",
+        "score": 13.239208189458617
+      },
+      "best_combined_candidate": {
+        "text": "The gentleman wearing the white shirt",
+        "type": "generated",
+        "rec_score": 54.66645885089388,
+        "gaze_score": 13.239208189458617,
+        "combined_score": 67.9056670403525
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073924719_82.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          12,
+          2
+        ],
+        "gaze": [
+          10,
+          1,
+          11
+        ],
+        "combined": [
+          11,
+          12,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The laptop with the red box around it",
+        "type": "generated",
+        "score": 25.122469172385028
+      },
+      "best_gaze_candidate": {
+        "text": "L LAP",
+        "type": "gold",
+        "score": 34.25775659050532
+      },
+      "best_combined_candidate": {
+        "text": "The laptop with the red box around it",
+        "type": "generated",
+        "rec_score": 25.122469172385028,
+        "gaze_score": 36.23173233535159,
+        "combined_score": 61.35420150773662
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073934351_83.jpg",
+      "gold_positions": {
+        "rec": [
+          1,
+          3,
+          2
+        ],
+        "gaze": [
+          1,
+          12,
+          3
+        ],
+        "combined": [
+          1,
+          11,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "Center polka",
+        "type": "gold",
+        "score": 15.100395249222908
+      },
+      "best_gaze_candidate": {
+        "text": "Center polka",
+        "type": "gold",
+        "score": 15.543706970365559
+      },
+      "best_combined_candidate": {
+        "text": "Center polka",
+        "type": "gold",
+        "rec_score": 15.100395249222908,
+        "gaze_score": 15.543706970365559,
+        "combined_score": 30.64410221958847
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073943916_84.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          4,
+          3
+        ],
+        "gaze": [
+          6,
+          4,
+          5
+        ],
+        "combined": [
+          5,
+          4,
+          3
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The vehicle surrounded by a red square is referred to",
+        "type": "generated",
+        "score": 12.379325754439268
+      },
+      "best_gaze_candidate": {
+        "text": "The front part of the bus on right end",
+        "type": "generated",
+        "score": 1.3094100853154198
+      },
+      "best_combined_candidate": {
+        "text": "The vehicle surrounded by a red square is referred to",
+        "type": "generated",
+        "rec_score": 12.379325754439268,
+        "gaze_score": 23.01078348357498,
+        "combined_score": 35.39010923801425
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073948684_85.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          10,
+          11
+        ],
+        "gaze": [
+          8,
+          9,
+          5
+        ],
+        "combined": [
+          12,
+          8,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The area of the person's arm between elbow",
+        "type": "generated",
+        "score": 15.493301045798196
+      },
+      "best_gaze_candidate": {
+        "text": "The man standing",
+        "type": "generated",
+        "score": 7.34171865557214
+      },
+      "best_combined_candidate": {
+        "text": "The man standing",
+        "type": "generated",
+        "rec_score": 27.758488017699037,
+        "gaze_score": 7.34171865557214,
+        "combined_score": 35.100206673271174
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073953457_86.jpg",
+      "gold_positions": {
+        "rec": [
+          12,
+          10,
+          5
+        ],
+        "gaze": [
+          8,
+          3,
+          11
+        ],
+        "combined": [
+          8,
+          5,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The lady in the green shirt",
+        "type": "generated",
+        "score": 12.95604736041762
+      },
+      "best_gaze_candidate": {
+        "text": "The girl petting the cow",
+        "type": "generated",
+        "score": 11.236706137011382
+      },
+      "best_combined_candidate": {
+        "text": "The girl petting the cow",
+        "type": "generated",
+        "rec_score": 13.990559658553666,
+        "gaze_score": 11.236706137011382,
+        "combined_score": 25.227265795565046
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073958331_87.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          10,
+          11
+        ],
+        "gaze": [
+          9,
+          11,
+          8
+        ],
+        "combined": [
+          6,
+          11,
+          10
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The woman on the right",
+        "type": "generated",
+        "score": 40.38502075367882
+      },
+      "best_gaze_candidate": {
+        "text": "The person in the green shirt with red box",
+        "type": "generated",
+        "score": 89.12909802981515
+      },
+      "best_combined_candidate": {
+        "text": "The person in the green shirt with red box",
+        "type": "generated",
+        "rec_score": 40.38502075367882,
+        "gaze_score": 89.12909802981515,
+        "combined_score": 129.51411878349398
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073963116_88.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          3,
+          2
+        ],
+        "gaze": [
+          5,
+          10,
+          4
+        ],
+        "combined": [
+          5,
+          2,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The beds",
+        "type": "generated",
+        "score": 9.67901732761371
+      },
+      "best_gaze_candidate": {
+        "text": "The bed",
+        "type": "generated",
+        "score": 11.755093727965082
+      },
+      "best_combined_candidate": {
+        "text": "back bed",
+        "type": "gold",
+        "rec_score": 9.67901732761371,
+        "gaze_score": 16.278516170385284,
+        "combined_score": 25.957533497998995
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073972459_89.jpg",
+      "gold_positions": {
+        "rec": [
+          3,
+          8
+        ],
+        "gaze": [
+          2,
+          1
+        ],
+        "combined": [
+          2,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The slice",
+        "type": "generated",
+        "score": 14.196975914013514
+      },
+      "best_gaze_candidate": {
+        "text": "bottom left food",
+        "type": "gold",
+        "score": 29.234946283284167
+      },
+      "best_combined_candidate": {
+        "text": "The slice",
+        "type": "generated",
+        "rec_score": 14.196975914013514,
+        "gaze_score": 37.716513143379366,
+        "combined_score": 51.91348905739288
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073977249_90.jpg",
+      "gold_positions": {
+        "rec": [
+          5,
+          6,
+          2
+        ],
+        "gaze": [
+          3,
+          12,
+          6
+        ],
+        "combined": [
+          3,
+          8,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "Top left donut",
+        "type": "generated",
+        "score": 17.79693596795882
+      },
+      "best_gaze_candidate": {
+        "text": "Top",
+        "type": "generated",
+        "score": 17.594389476667764
+      },
+      "best_combined_candidate": {
+        "text": "Top donut",
+        "type": "generated",
+        "rec_score": 19.29299973962654,
+        "gaze_score": 22.933478186136636,
+        "combined_score": 42.22647792576318
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073986371_91.jpg",
+      "gold_positions": {
+        "rec": [
+          7,
+          12,
+          9
+        ],
+        "gaze": [
+          3,
+          12,
+          8
+        ],
+        "combined": [
+          4,
+          12,
+          8
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The guy in the white shirt, blue pants,",
+        "type": "generated",
+        "score": 15.27444010594361
+      },
+      "best_gaze_candidate": {
+        "text": "the guy",
+        "type": "generated",
+        "score": 52.63247357659548
+      },
+      "best_combined_candidate": {
+        "text": "The guy in the white shirt, blue pants,",
+        "type": "generated",
+        "rec_score": 15.27444010594361,
+        "gaze_score": 60.139848604436274,
+        "combined_score": 75.41428871037988
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749073996524_92.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          1,
+          5
+        ],
+        "gaze": [
+          4,
+          8,
+          3
+        ],
+        "combined": [
+          3,
+          5,
+          4
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "pink",
+        "type": "gold",
+        "score": 11.131731949325763
+      },
+      "best_gaze_candidate": {
+        "text": "The doughnut with pink frosting",
+        "type": "generated",
+        "score": 12.479474994130962
+      },
+      "best_combined_candidate": {
+        "text": "The doughnut with pink frosting",
+        "type": "generated",
+        "rec_score": 15.458599906668542,
+        "gaze_score": 12.479474994130962,
+        "combined_score": 27.938074900799506
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074001201_93.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          4,
+          9
+        ],
+        "gaze": [
+          1,
+          3,
+          4
+        ],
+        "combined": [
+          2,
+          3,
+          6
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "She",
+        "type": "generated",
+        "score": 49.03904624638764
+      },
+      "best_gaze_candidate": {
+        "text": "tan lines on butt",
+        "type": "gold",
+        "score": 20.459278769759457
+      },
+      "best_combined_candidate": {
+        "text": "The woman wearing the blue bikini",
+        "type": "generated",
+        "rec_score": 58.17379147888447,
+        "gaze_score": 22.819791742888526,
+        "combined_score": 80.993583221773
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074010172_94.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          8,
+          7
+        ],
+        "gaze": [
+          3,
+          10,
+          8
+        ],
+        "combined": [
+          10,
+          8,
+          7
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": true,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The bunch of bananas to the left par",
+        "type": "generated",
+        "score": 8.823563274889596
+      },
+      "best_gaze_candidate": {
+        "text": "The bunch of bananas to the left par",
+        "type": "generated",
+        "score": 31.962159025709305
+      },
+      "best_combined_candidate": {
+        "text": "The bunch of bananas to the left par",
+        "type": "generated",
+        "rec_score": 8.823563274889596,
+        "gaze_score": 31.962159025709305,
+        "combined_score": 40.7857223005989
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074019279_95.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          6,
+          5
+        ],
+        "gaze": [
+          8,
+          7,
+          9
+        ],
+        "combined": [
+          3,
+          4,
+          5
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The person holding the black snowboard",
+        "type": "generated",
+        "score": 25.335602434592648
+      },
+      "best_gaze_candidate": {
+        "text": "The snowboard he's carrying",
+        "type": "generated",
+        "score": 7.611590514895389
+      },
+      "best_combined_candidate": {
+        "text": "The snowboard he's carrying",
+        "type": "generated",
+        "rec_score": 54.90082354739382,
+        "gaze_score": 7.611590514895389,
+        "combined_score": 62.51241406228921
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074028394_96.jpg",
+      "gold_positions": {
+        "rec": [
+          4,
+          12,
+          3
+        ],
+        "gaze": [
+          2,
+          9,
+          1
+        ],
+        "combined": [
+          2,
+          12,
+          1
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The young child in black clothing",
+        "type": "generated",
+        "score": 14.30512112084367
+      },
+      "best_gaze_candidate": {
+        "text": "little kid in black jacket. back to us",
+        "type": "gold",
+        "score": 15.905569447891354
+      },
+      "best_combined_candidate": {
+        "text": "little kid in black jacket. back to us",
+        "type": "gold",
+        "rec_score": 14.30512112084367,
+        "gaze_score": 15.905569447891354,
+        "combined_score": 30.210690568735025
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074037233_97.jpg",
+      "gold_positions": {
+        "rec": [
+          11,
+          3,
+          4
+        ],
+        "gaze": [
+          3,
+          9,
+          6
+        ],
+        "combined": [
+          11,
+          3,
+          2
+        ]
+      },
+      "gold_in_top3": {
+        "rec": true,
+        "gaze": true,
+        "combined": true
+      },
+      "best_rec_candidate": {
+        "text": "The baby bear",
+        "type": "generated",
+        "score": 6.499503849860868
+      },
+      "best_gaze_candidate": {
+        "text": "The cub on the right side of image",
+        "type": "generated",
+        "score": 8.396818061932128
+      },
+      "best_combined_candidate": {
+        "text": "The baby bear",
+        "type": "generated",
+        "rec_score": 6.499503849860868,
+        "gaze_score": 17.670081397855988,
+        "combined_score": 24.169585247716856
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074046207_98.jpg",
+      "gold_positions": {
+        "rec": [
+          8,
+          7,
+          12
+        ],
+        "gaze": [
+          5,
+          8,
+          10
+        ],
+        "combined": [
+          6,
+          8,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The zebra in the red box would be referred",
+        "type": "generated",
+        "score": 3.22056493886869
+      },
+      "best_gaze_candidate": {
+        "text": "The zebra in the red box",
+        "type": "generated",
+        "score": 10.159244403930987
+      },
+      "best_combined_candidate": {
+        "text": "The zebra in the red box would be referred",
+        "type": "generated",
+        "rec_score": 3.22056493886869,
+        "gaze_score": 10.159244403930987,
+        "combined_score": 13.379809342799678
+      }
+    },
+    {
+      "image_path": "output/overlayed_images/overlayed_example_1749074055310_99.jpg",
+      "gold_positions": {
+        "rec": [
+          10,
+          9,
+          11
+        ],
+        "gaze": [
+          11,
+          9,
+          12
+        ],
+        "combined": [
+          10,
+          9,
+          11
+        ]
+      },
+      "gold_in_top3": {
+        "rec": false,
+        "gaze": false,
+        "combined": false
+      },
+      "best_rec_candidate": {
+        "text": "The guy in the pink shirt and black pants",
+        "type": "generated",
+        "score": 36.61051703394795
+      },
+      "best_gaze_candidate": {
+        "text": "The guy eating the chips",
+        "type": "generated",
+        "score": 60.33476681205174
+      },
+      "best_combined_candidate": {
+        "text": "The guy in the pink shirt and black pants",
+        "type": "generated",
+        "rec_score": 36.61051703394795,
+        "gaze_score": 62.88698868013388,
+        "combined_score": 99.49750571408183
+      }
+    }
+  ],
+  "proportion_gold_rec": 0.22,
+  "proportion_gold_gaze": 0.3,
+  "proportion_gold_combined": 0.28,
+  "proportion_gold_top3_rec": 0.55,
+  "proportion_gold_top3_gaze": 0.65,
+  "proportion_gold_top3_combined": 0.68
+}
