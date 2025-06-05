@@ -219,7 +219,52 @@ for idx in gaze_sorted_indices:
         st.write(f"- REC distance: `{rec_distances[idx]:.2f}`")
 
     st.write("---")
-import pandas as pd
+
+from scipy.stats import spearmanr
+
+def compute_length_metrics(sort_by: str):
+    top1_lens = []
+    lengths = []
+    ranks = []
+    short_in_top3 = 0
+    total_top3 = 0
+
+    for d in data.values():
+        cands = d["candidates"]
+        dists = d[f"{sort_by}_distances"]
+        sorted_idxs = sorted(range(len(dists)), key=lambda j: dists[j])
+
+        # Top-1
+        top1_idx = sorted_idxs[0]
+        top1_lens.append(len(cands[top1_idx]["text"].split()))
+
+        # Length vs Rank
+        for rank, idx in enumerate(sorted_idxs):
+            lengths.append(len(cands[idx]["text"].split()))
+            ranks.append(rank + 1)
+
+        # Short in top-3
+        for idx in sorted_idxs[:3]:
+            if len(cands[idx]["text"].split()) <= 3:
+                short_in_top3 += 1
+            total_top3 += 1
+
+    avg_len_top1 = sum(top1_lens) / len(top1_lens)
+    corr_len_rank, _ = spearmanr(lengths, ranks)
+    pct_short_top3 = 100 * short_in_top3 / total_top3
+
+    return avg_len_top1, corr_len_rank, pct_short_top3
+
+# Get metrics for all three ranking types
+avg_len_gaze, corr_gaze, pct_short_gaze = compute_length_metrics("gaze")
+avg_len_rec, corr_rec, pct_short_rec = compute_length_metrics("rec")
+
+# For "combined", define combined_distances dynamically
+for d in data.values():
+    d["combined_distances"] = [a + b for a, b in zip(d["gaze_distances"], d["rec_distances"])]
+
+avg_len_comb, corr_comb, pct_short_comb = compute_length_metrics("combined")
+
 
 with st.sidebar:
     st.write({
@@ -236,7 +281,17 @@ with st.sidebar:
         "avg_distance_to_center_rec": 67.3057957222177,
         "avg_distance_to_center_gaze": 80.43525600992326,
         "avg_distance_to_center_combined": 73.8705258661,
-})
+        "avg_ref_length_at_top_gaze": avg_len_gaze,
+        "avg_ref_length_at_top_rec": avg_len_rec,
+        "avg_ref_length_at_top_combined": avg_len_comb,
+        "length_rank_corr_gaze": corr_gaze,
+        "length_rank_corr_rec": corr_rec,
+        "length_rank_corr_combined": corr_comb,
+        "pct_short_refs_in_top3_gaze": pct_short_gaze,
+        "pct_short_refs_in_top3_rec": pct_short_rec,
+        "pct_short_refs_in_top3_combined": pct_short_comb,
+    })
+
 
 
 

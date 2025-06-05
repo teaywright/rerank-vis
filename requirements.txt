@@ -2,3 +2,4 @@ streamlit
 datasets
 Pillow
 matplotlib
+scipy
