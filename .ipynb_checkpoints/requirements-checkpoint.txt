@@ -1,0 +1,6 @@
+streamlit
+datasets
+Pillow
+matplotlib
+datasets
+json
