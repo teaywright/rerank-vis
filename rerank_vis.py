@@ -5,7 +5,7 @@ from pathlib import Path
 from matplotlib import cm
 
 st.set_page_config(layout="wide")
-st.title("Gaze vs REC: Reranking + Detailed Overlays")
+st.title("Gaze vs REC: Reranking + Detailed Overlays (Scaled to 512×320)")
 
 # ─── 1) Load JSON files (containing "gaze_sequences" and "rec_points") ───────
 with open("gaze_scoring_results.json") as f:
@@ -46,36 +46,36 @@ def get_image_by_filename(filename: str) -> Image.Image | None:
     return None
 
 # ─── 3) Custom drawing for gaze sequences ─────────────────────────────────────
-def draw_sequence(draw: ImageDraw.ImageDraw, seq: list[list[float]], 
+def draw_sequence(draw: ImageDraw.ImageDraw, seq: list[tuple[float, float]],
                   cmap_name: str = "viridis", last_color: str = "red", label: bool = True):
     """
-    Draw a colored gaze path:
-      - Each fixation is a filled circle, colored by its index along a colormap
-      - Lines between consecutive fixations, same color
-      - Label each fixation with its index (1-based) if label=True
-      - Outline the final fixation with last_color
+    Given a list of (x_pixel, y_pixel) points (already scaled), draw:
+      - Each fixation: a filled circle with color from a colormap
+      - A thick colored line between consecutive fixations
+      - A small index label next to each fixation
+      - An outline around the final fixation in `last_color`
     """
-    # Clean sequence: ensure each pt is (float, float)
-    clean_seq = [tuple(pt) for pt in seq
-                 if isinstance(pt, (list, tuple)) and len(pt) == 2
-                 and all(isinstance(v, (int, float)) for v in pt)]
-    if not clean_seq:
+    # Keep only valid (x,y) pairs
+    clean_seq = [ (x, y) for (x,y) in seq 
+                  if isinstance(x, (int, float)) and isinstance(y, (int, float)) ]
+    if len(clean_seq) < 1:
         return
 
     N = len(clean_seq)
     cmap = cm.get_cmap(cmap_name, N)
 
     for i, (x, y) in enumerate(clean_seq):
-        color_rgb = tuple(int(255 * c) for c in cmap(i)[:3])
+        # Convert the colormap float → 0–255
+        rgb = tuple(int(255 * c) for c in cmap(i)[:3])
         r = 4
-        draw.ellipse((x - r, y - r, x + r, y + r), fill=color_rgb)
+        draw.ellipse((x - r, y - r, x + r, y + r), fill=rgb)
         if i > 0:
             x_prev, y_prev = clean_seq[i - 1]
-            draw.line([(x_prev, y_prev), (x, y)], fill=color_rgb, width=4)
+            draw.line([(x_prev, y_prev), (x, y)], fill=rgb, width=4)
         if label:
-            draw.text((x + 5, y - 5), str(i + 1), fill="white")
+            draw.text((x + 6, y - 6), str(i + 1), fill="white")
 
-    # Outline the last fixation
+    # Outline the last fixation with a thicker circle
     fx, fy = clean_seq[-1]
     r2 = 6
     draw.ellipse((fx - r2, fy - r2, fx + r2, fy + r2), outline=last_color, width=3)
@@ -92,11 +92,16 @@ rec_distances = entry["rec_distances"]
 gaze_sequences = entry["gaze_sequences"]
 rec_points      = entry["rec_points"]
 
-# 4.1 – Load the overlayed image (already has bbox drawn)
+# 4.1 – Load the overlayed image (512×320 with bbox already drawn)
 base_image = get_image_by_filename(filename)
 if base_image is None:
     st.error(f"Could not find '{filename}' in output/overlayed_images/.")
     st.stop()
+
+# Precompute scale factors from 0–100 → actual image pixels
+img_w, img_h = base_image.size   # should be (512, 320)
+sx = img_w / 100.0
+sy = img_h / 100.0
 
 # ────────────────────────────────────────────────────────────────────────────────
 # 4.2 – Display the single overlayed image at the top
@@ -124,20 +129,26 @@ with col_b:
 st.markdown("## Detailed Overlays per Candidate  (Scroll ↓ to expand)")
 for idx, cand in enumerate(candidates):
     with st.expander(f"{idx+1}. \"{cand['text']}\" – Type: `{cand['type']}`"):
-        # 4.4.1 – Gaze overlay
-        gaze_path = gaze_sequences[idx] if idx < len(gaze_sequences) else []
+        # 4.4.1 – Scale & draw gaze sequence
+        raw_seq = gaze_sequences[idx] if idx < len(gaze_sequences) else []
+        # Convert each (x,y) from [0..100] → [0..img_w], [0..img_h]
+        scaled_seq: list[tuple[float,float]] = [
+            (pt[0] * sx, pt[1] * sy)
+            for pt in raw_seq
+            if isinstance(pt, (list, tuple)) and len(pt) == 2
+        ]
         img_gaze = base_image.copy()
         draw_g = ImageDraw.Draw(img_gaze)
-        draw_sequence(draw_g, gaze_path, cmap_name="viridis", last_color="red", label=True)
+        draw_sequence(draw_g, scaled_seq, cmap_name="viridis", last_color="red", label=True)
 
-        # 4.4.2 – REC point overlay
-        rec_pt = rec_points[idx] if idx < len(rec_points) else None
+        # 4.4.2 – Scale & draw REC point
+        raw_pt = rec_points[idx] if idx < len(rec_points) else None
         img_rec = base_image.copy()
         draw_r = ImageDraw.Draw(img_rec)
-        if isinstance(rec_pt, (list, tuple)) and len(rec_pt) == 2:
-            x_rec, y_rec = rec_pt
+        if isinstance(raw_pt, (list, tuple)) and len(raw_pt) == 2:
+            x0, y0 = raw_pt[0] * sx, raw_pt[1] * sy
             r = 6
-            draw_r.ellipse((x_rec - r, y_rec - r, x_rec + r, y_rec + r),
+            draw_r.ellipse((x0 - r, y0 - r, x0 + r, y0 + r),
                            fill="yellow", outline="yellow")
 
         st.write("**Gaze Path (colored by fixation order)**")
@@ -146,7 +157,7 @@ for idx, cand in enumerate(candidates):
         st.write("**REC Point (yellow circle)**")
         st.image(img_rec, use_container_width=True)
 
-        # Optionally show distances
+        # Optionally show the numeric distances
         st.write(f"- Gaze distance: `{gaze_distances[idx]:.2f}`")
         st.write(f"- REC distance: `{rec_distances[idx]:.2f}`")
         st.write("---")
