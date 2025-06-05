@@ -43,7 +43,7 @@ for g_entry, r_entry in zip(gaze_data, rec_data):
 
 # ─── 2) Helper: load from local “data/overlayed_images/” ──────────────────────────
 def get_image_by_filename(filename: str) -> Image.Image | None:
-    local_path = Path("output/overlayed_images") / filename
+    local_path = Path("output/overlayed_images/") / filename
     if local_path.exists():
         return Image.open(local_path)
     return None
