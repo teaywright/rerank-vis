@@ -55,9 +55,9 @@ if image is None:
 #     return image
 
 st.subheader("Image with Bounding Box")
-img_copy = image.copy()
-img_with_bbox = draw_bbox(img_copy, bbox)
-st.image(img_with_bbox, caption=filename)
+#img_copy = image.copy()
+#img_with_bbox = draw_bbox(img_copy, bbox)
+st.image(image, caption=filename)
 
 # --- Create sortable ranking tables ---
 def reranked_table(candidates, distances, title):
