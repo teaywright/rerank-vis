@@ -4,21 +4,22 @@ from PIL import Image, ImageDraw
 from pathlib import Path
 
 st.set_page_config(layout="wide")
-st.title("Gaze vs REC: Click to Show Path/Point")
+st.title("Gaze vs REC: Reranking + Detailed Overlays")
 
-# ─── 1) Load JSON files (containing "gaze_sequences" and "rec_points") ───────
+# ─── 1) Load JSON files (now containing "gaze_sequences" and "rec_points") ───────
 with open("gaze_scoring_results.json") as f:
     gaze_data = json.load(f)
 
 with open("rec_scoring_results.json") as f:
     rec_data = json.load(f)
 
-# Build a dict keyed by image_path.
+# Build a dict keyed by image_path
 data = {}
 for g_entry, r_entry in zip(gaze_data, rec_data):
     image_path = g_entry["image_path"]
-    assert image_path == r_entry["image_path"]
+    assert image_path == r_entry["image_path"], "Mismatch between gaze and rec entries"
 
+    # Pull the lists (or default to empty)
     gaze_sequences = g_entry.get("gaze_sequences", [])
     rec_points      = r_entry.get("rec_points", [])
 
@@ -94,43 +95,8 @@ if base_image is None:
     st.error(f"Could not find '{filename}' in output/overlayed_images/.")
     st.stop()
 
-st.subheader("① Overlayed Image (with bounding box already) ")
-st.image(base_image, use_container_width=True)
-
-# 4.2 – Track which candidate-button was clicked
-if "selected_candidate_idx" not in st.session_state:
-    st.session_state.selected_candidate_idx = None
-
-# 4.3 – One button per candidate
-st.subheader("② Click a candidate button to overlay its Gaze path & REC point")
-cols = st.columns(2)
-for idx, cand in enumerate(candidates):
-    col = cols[idx % 2]
-    btn_text = f"{cand['text']}  ({cand['type']})"
-    if col.button(btn_text, key=f"btn_{idx}"):
-        st.session_state.selected_candidate_idx = idx
-
-# 4.4 – Redraw overlays for the clicked candidate
-sel_idx = st.session_state.selected_candidate_idx
-if sel_idx is not None:
-    st.markdown("---")
-    sel_cand = candidates[sel_idx]
-    st.write(f"**Selected candidate:** {sel_cand['text']}  — Type: `{sel_cand['type']}`")
-
-    overlay = base_image.copy()
-
-    # 4.4.1 – Overlay that candidate’s gaze sequence (if available)
-    raw_gaze = gaze_sequences[sel_idx] if sel_idx < len(gaze_sequences) else []
-    overlay = draw_gaze_path(overlay, raw_gaze, color="lime", width=2)
-
-    # 4.4.2 – Overlay that candidate’s REC point (if available)
-    raw_rec = rec_points[sel_idx] if sel_idx < len(rec_points) else None
-    overlay = draw_rec_point(overlay, raw_rec, color="yellow", radius=5)
-
-    st.subheader("③ Overlay: Gaze path (lime) + REC point (yellow)")
-    st.image(overlay, use_container_width=True)
-
-# 4.5 – Always show the two reranked tables at the bottom
+# ────────────────────────────────────────────────────────────────────────────────
+# 4.2 – Show reranked tables side by side
 def reranked_table(cands, dists, title: str):
     st.write(f"#### {title}")
     sorted_items = sorted(zip(dists, cands), key=lambda x: x[0])
@@ -138,9 +104,32 @@ def reranked_table(cands, dists, title: str):
         tag = "🟡 Gold" if cand["type"] == "gold" else "⚪️ Gen"
         st.markdown(f"- `{dist:.2f}`  **{cand['text']}** ({tag})")
 
-st.markdown("---")
+st.markdown("## Reranked Lists")
 col_a, col_b = st.columns(2)
 with col_a:
     reranked_table(candidates, gaze_distances, "👁️ Gaze-Based Ranking")
 with col_b:
     reranked_table(candidates, rec_distances, "📍 REC-Based Ranking")
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 4.3 – For each candidate, put an expander showing both overlays
+st.markdown("## Detailed Overlays per Candidate  (Scroll ↓ to expand)")
+for idx, cand in enumerate(candidates):
+    with st.expander(f"{idx+1}. \"{cand['text']}\" – Type: `{cand['type']}`"):
+        # Draw gaze path overlay
+        gaze_path = gaze_sequences[idx] if idx < len(gaze_sequences) else []
+        img_gaze = draw_gaze_path(base_image, gaze_path, color="lime", width=2)
+
+        # Draw REC point overlay (on the same base image)
+        rec_pt = rec_points[idx] if idx < len(rec_points) else None
+        img_rec = draw_rec_point(base_image, rec_pt, color="yellow", radius=5)
+
+        st.write("**Gaze Path (lime)**")
+        st.image(img_gaze, use_container_width=True)
+        st.write("**REC Point (yellow)**")
+        st.image(img_rec, use_container_width=True)
+
+        # Optionally also display the raw distance values:
+        st.write(f"- Gaze distance: `{gaze_distances[idx]:.2f}`")
+        st.write(f"- REC distance: `{rec_distances[idx]:.2f}`")
+        st.write("---")
