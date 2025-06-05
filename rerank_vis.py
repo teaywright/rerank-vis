@@ -219,3 +219,24 @@ for idx in gaze_sorted_indices:
         st.write(f"- REC distance: `{rec_distances[idx]:.2f}`")
 
     st.write("---")
+import pandas as pd
+
+with st.sidebar:
+    st.write({
+        "total_examples": 100,
+        "gold_at_top_rec": 36,
+        "gold_at_top_gaze": 32,
+        "gold_at_top_combined": 36,
+        "gold_in_top3_rec": 57,
+        "gold_in_top3_gaze": 71,
+        "gold_in_top3_combined": 74,
+        "avg_gold_position_rec": 5.8901098901098905,
+        "avg_gold_position_gaze": 5.4322344322344325,
+        "avg_gold_position_combined": 5.2967032967032965,
+        "avg_distance_to_center_rec": 67.3057957222177,
+        "avg_distance_to_center_gaze": 80.43525600992326,
+        "avg_distance_to_center_combined": 73.8705258661,
+})
+
+
+
