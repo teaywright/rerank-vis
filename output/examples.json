@@ -1,0 +1,5890 @@
+[
+  {
+    "imagefile": "COCO_train2014_000000507215_2.jpg",
+    "bbox": [
+      41.608941291360296,
+      56.80940946691177,
+      213.57176011029412,
+      152.44800091911765
+    ],
+    "candidates": [
+      {
+        "text": "The laptop",
+        "type": "generated"
+      },
+      {
+        "text": "laptop computer",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop outlined by the red box (which I",
+        "type": "generated"
+      },
+      {
+        "text": "The open laptop",
+        "type": "generated"
+      },
+      {
+        "text": "laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop computer and its lime green case",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted computer",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop with black keys and a silver back",
+        "type": "generated"
+      },
+      {
+        "text": "biggest laptop",
+        "type": "gold"
+      },
+      {
+        "text": "large laptop",
+        "type": "gold"
+      },
+      {
+        "text": "big laptop",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073094500_0.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000105685_2.jpg",
+    "bbox": [
+      171.25,
+      117.45999908447266,
+      142.80499267578125,
+      156.77499389648438
+    ],
+    "candidates": [
+      {
+        "text": "The boy with his arms raised",
+        "type": "generated"
+      },
+      {
+        "text": "The child in the blue shirt and gray pants",
+        "type": "generated"
+      },
+      {
+        "text": "The boy",
+        "type": "generated"
+      },
+      {
+        "text": "The child",
+        "type": "generated"
+      },
+      {
+        "text": "The child in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The toddler",
+        "type": "generated"
+      },
+      {
+        "text": "The child in the center of image, wearing",
+        "type": "generated"
+      },
+      {
+        "text": "The child in the blue shirt",
+        "type": "generated"
+      },
+      {
+        "text": "Man holding child",
+        "type": "generated"
+      },
+      {
+        "text": "little boy with arm raised",
+        "type": "gold"
+      },
+      {
+        "text": "boy",
+        "type": "gold"
+      },
+      {
+        "text": "baby in arms",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073104602_1.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000233153_2.jpg",
+    "bbox": [
+      214.3315078526327,
+      9.731506974729772,
+      217.35343201519692,
+      306.3068546660959
+    ],
+    "candidates": [
+      {
+        "text": "The man",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the suit",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the image",
+        "type": "generated"
+      },
+      {
+        "text": "Man",
+        "type": "generated"
+      },
+      {
+        "text": "gentleman",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the image is a middle-aged white",
+        "type": "generated"
+      },
+      {
+        "text": "Here's a concise referring expression for the object highlighted",
+        "type": "generated"
+      },
+      {
+        "text": "hot dude",
+        "type": "gold"
+      },
+      {
+        "text": "man",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073113541_2.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000445098_0.jpg",
+    "bbox": [
+      136.0,
+      0.0,
+      239.63999938964844,
+      314.9800109863281
+    ],
+    "candidates": [
+      {
+        "text": "The image with the red border",
+        "type": "generated"
+      },
+      {
+        "text": "The woman holding the child",
+        "type": "generated"
+      },
+      {
+        "text": "Mother and child",
+        "type": "generated"
+      },
+      {
+        "text": "The woman holding the baby",
+        "type": "generated"
+      },
+      {
+        "text": "The woman",
+        "type": "generated"
+      },
+      {
+        "text": "Woman and toddler",
+        "type": "generated"
+      },
+      {
+        "text": "The woman and child",
+        "type": "generated"
+      },
+      {
+        "text": "The woman and the baby",
+        "type": "generated"
+      },
+      {
+        "text": "The old lady and child",
+        "type": "generated"
+      },
+      {
+        "text": "lady",
+        "type": "gold"
+      },
+      {
+        "text": "older woman",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073126497_3.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000061842_1.jpg",
+    "bbox": [
+      120.57108316076807,
+      71.37349691735693,
+      155.489163685994,
+      248.62651778990963
+    ],
+    "candidates": [
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "Woman",
+        "type": "generated"
+      },
+      {
+        "text": "The woman",
+        "type": "generated"
+      },
+      {
+        "text": "the man on left",
+        "type": "generated"
+      },
+      {
+        "text": "Man holding Wiimote",
+        "type": "generated"
+      },
+      {
+        "text": "The female player",
+        "type": "generated"
+      },
+      {
+        "text": "the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The controlling device in her hands appears to be the",
+        "type": "generated"
+      },
+      {
+        "text": "A woman sitting",
+        "type": "generated"
+      },
+      {
+        "text": "GIRL BROWN",
+        "type": "gold"
+      },
+      {
+        "text": "person in blue jeans",
+        "type": "gold"
+      },
+      {
+        "text": "brown",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073135365_4.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000015843_0.jpg",
+    "bbox": [
+      131.64666748046875,
+      135.85333251953125,
+      123.96666463216145,
+      152.07333374023438
+    ],
+    "candidates": [
+      {
+        "text": "The batter",
+        "type": "generated"
+      },
+      {
+        "text": "batter",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "He who swings",
+        "type": "generated"
+      },
+      {
+        "text": "the batter",
+        "type": "generated"
+      },
+      {
+        "text": "Hitter",
+        "type": "generated"
+      },
+      {
+        "text": "Player at bat",
+        "type": "generated"
+      },
+      {
+        "text": "He who swung that wooden club",
+        "type": "generated"
+      },
+      {
+        "text": "The batter with the hat pulled down close to his",
+        "type": "generated"
+      },
+      {
+        "text": "man batting",
+        "type": "gold"
+      },
+      {
+        "text": "Batter",
+        "type": "gold"
+      },
+      {
+        "text": "the batter",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073148347_5.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000523455_2.jpg",
+    "bbox": [
+      56.7920000076294,
+      124.84000244140626,
+      152.48800048828124,
+      188.04799804687502
+    ],
+    "candidates": [
+      {
+        "text": "guy in white",
+        "type": "generated"
+      },
+      {
+        "text": "An older gentleman wearing a cap and white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the pink shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The person holding the phone",
+        "type": "generated"
+      },
+      {
+        "text": "The man wearing a hat and long-slee",
+        "type": "generated"
+      },
+      {
+        "text": "The person sitting down wearing a gray shirt and jeans",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the hat",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the white shirt and gray long sleeves",
+        "type": "generated"
+      },
+      {
+        "text": "older man",
+        "type": "generated"
+      },
+      {
+        "text": "boy on left white shirt",
+        "type": "gold"
+      },
+      {
+        "text": "guy in white shirt in back",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073173610_6.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000197251_5.jpg",
+    "bbox": [
+      230.08480468750003,
+      92.11733072916667,
+      209.59572916666667,
+      226.94401041666669
+    ],
+    "candidates": [
+      {
+        "text": "the toast",
+        "type": "generated"
+      },
+      {
+        "text": "The toast",
+        "type": "generated"
+      },
+      {
+        "text": "The bread",
+        "type": "generated"
+      },
+      {
+        "text": "The sandwich",
+        "type": "generated"
+      },
+      {
+        "text": "The bread slices",
+        "type": "generated"
+      },
+      {
+        "text": "The slice",
+        "type": "generated"
+      },
+      {
+        "text": "bread",
+        "type": "generated"
+      },
+      {
+        "text": "The item inside the red box is bread",
+        "type": "generated"
+      },
+      {
+        "text": "Two pieces of sandwich bread",
+        "type": "generated"
+      },
+      {
+        "text": "toast on left",
+        "type": "gold"
+      },
+      {
+        "text": "left side of sandwhich",
+        "type": "gold"
+      },
+      {
+        "text": "the bread in front cam",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073178147_7.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000537097_2.jpg",
+    "bbox": [
+      244.5500030517578,
+      98.94000244140625,
+      65.2699966430664,
+      220.9199981689453
+    ],
+    "candidates": [
+      {
+        "text": "The guy attempting to block the ball",
+        "type": "generated"
+      },
+      {
+        "text": "The middle guy",
+        "type": "generated"
+      },
+      {
+        "text": "The player in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The player in white and black",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the white sleeveless shirt, black",
+        "type": "generated"
+      },
+      {
+        "text": "The player",
+        "type": "generated"
+      },
+      {
+        "text": "The player with the red box around him",
+        "type": "generated"
+      },
+      {
+        "text": "man in black white shorts",
+        "type": "gold"
+      },
+      {
+        "text": "Middle person",
+        "type": "gold"
+      },
+      {
+        "text": "GUY IN BLACK NAD WHITE SHORTS",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073191159_8.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000565769_1.jpg",
+    "bbox": [
+      78.56112663751463,
+      106.42435185524006,
+      192.00000914812648,
+      129.4388767930328
+    ],
+    "candidates": [
+      {
+        "text": "The elephant with its trunk raised and mouth open",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant in the front",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant with its head turned to the right",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant closest to the right",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant to the right",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant on the left side",
+        "type": "generated"
+      },
+      {
+        "text": "The elephant with its trunk extended",
+        "type": "generated"
+      },
+      {
+        "text": "dark elephant in back",
+        "type": "gold"
+      },
+      {
+        "text": "second elephant from left",
+        "type": "gold"
+      },
+      {
+        "text": "elephant in backleft",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073200187_9.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000182347_1.jpg",
+    "bbox": [
+      151.9087016704204,
+      78.16456104542041,
+      91.32973060951576,
+      235.86786493524775
+    ],
+    "candidates": [
+      {
+        "text": "Person in the center wearing a black long-slee",
+        "type": "generated"
+      },
+      {
+        "text": "The man with the blue frisbee",
+        "type": "generated"
+      },
+      {
+        "text": "The person he's talking to",
+        "type": "generated"
+      },
+      {
+        "text": "The man holding the frisbee",
+        "type": "generated"
+      },
+      {
+        "text": "The young boy with blonde hair and the man wearing",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the blue shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The boy",
+        "type": "generated"
+      },
+      {
+        "text": "The boy in the blue shirt and plaid pants",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "man wearing black shirt",
+        "type": "gold"
+      },
+      {
+        "text": "crouching dude foreground",
+        "type": "gold"
+      },
+      {
+        "text": "the man talking to boy hold red frisbee",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073209293_10.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000410836_1.jpg",
+    "bbox": [
+      105.59813084112149,
+      0.0,
+      389.9065420560747,
+      46.945795077029786
+    ],
+    "candidates": [
+      {
+        "text": "The monitor",
+        "type": "generated"
+      },
+      {
+        "text": "The screen above the tablet",
+        "type": "generated"
+      },
+      {
+        "text": "monitor",
+        "type": "generated"
+      },
+      {
+        "text": "Monitor",
+        "type": "generated"
+      },
+      {
+        "text": "The monitor on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The monitor at the top of image",
+        "type": "generated"
+      },
+      {
+        "text": "Upper monitor",
+        "type": "generated"
+      },
+      {
+        "text": "Dell monitor",
+        "type": "generated"
+      },
+      {
+        "text": "The monitor above the tablet that displays Dell logo",
+        "type": "generated"
+      },
+      {
+        "text": "monitor top out of view",
+        "type": "gold"
+      },
+      {
+        "text": "The top screen.",
+        "type": "gold"
+      },
+      {
+        "text": "monitor you can only see bottom part of at top of ic",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073218396_11.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000144230_0.jpg",
+    "bbox": [
+      201.1270565257353,
+      92.41599839154412,
+      118.12141544117647,
+      166.80658318014704
+    ],
+    "candidates": [
+      {
+        "text": "The batter",
+        "type": "generated"
+      },
+      {
+        "text": "batter",
+        "type": "generated"
+      },
+      {
+        "text": "Home plate",
+        "type": "generated"
+      },
+      {
+        "text": "the batter",
+        "type": "generated"
+      },
+      {
+        "text": "The batter and catcher",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "The batter on the umpire",
+        "type": "generated"
+      },
+      {
+        "text": "Home run position",
+        "type": "generated"
+      },
+      {
+        "text": "The batter at home plate",
+        "type": "generated"
+      },
+      {
+        "text": "batter",
+        "type": "gold"
+      },
+      {
+        "text": "BATTER",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073231714_12.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000068287_6.jpg",
+    "bbox": [
+      147.5299997329712,
+      197.47500610351562,
+      132.61500549316406,
+      122.5250015258789
+    ],
+    "candidates": [
+      {
+        "text": "The person with gray hair in the front",
+        "type": "generated"
+      },
+      {
+        "text": "The person with the red box around them",
+        "type": "generated"
+      },
+      {
+        "text": "person",
+        "type": "generated"
+      },
+      {
+        "text": "The blonde-headed person",
+        "type": "generated"
+      },
+      {
+        "text": "woman with short blonde hair",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "A guy with blonde hair",
+        "type": "generated"
+      },
+      {
+        "text": "lady with short blonde hair",
+        "type": "generated"
+      },
+      {
+        "text": "The person at the bottom with long blonde hair looking",
+        "type": "generated"
+      },
+      {
+        "text": "person with blue shirt",
+        "type": "gold"
+      },
+      {
+        "text": "blue shirt",
+        "type": "gold"
+      },
+      {
+        "text": "bottom man in blue",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073257013_13.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000354342_1.jpg",
+    "bbox": [
+      118.07775678790985,
+      52.12927217505855,
+      47.790164277480976,
+      198.3700325673302
+    ],
+    "candidates": [
+      {
+        "text": "The young kid in black",
+        "type": "generated"
+      },
+      {
+        "text": "The skater on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box is highlighted by",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the middle wearing black",
+        "type": "generated"
+      },
+      {
+        "text": "The boy wearing a grayish green shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The person in black is looking upward",
+        "type": "generated"
+      },
+      {
+        "text": "The two young Asian men standing in the middle-left",
+        "type": "generated"
+      },
+      {
+        "text": "The kid in the black t-shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The kid between the white guy on left and",
+        "type": "generated"
+      },
+      {
+        "text": "man left arms crossed",
+        "type": "gold"
+      },
+      {
+        "text": "man with arms crossed",
+        "type": "gold"
+      },
+      {
+        "text": "guy with arms crossed",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073266129_14.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000226345_0.jpg",
+    "bbox": [
+      66.72037493596312,
+      76.23044587968384,
+      196.59390094408667,
+      166.6323230752342
+    ],
+    "candidates": [
+      {
+        "text": "The lamb",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted lamb",
+        "type": "generated"
+      },
+      {
+        "text": "The lamb on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep",
+        "type": "generated"
+      },
+      {
+        "text": "The woolly animal",
+        "type": "generated"
+      },
+      {
+        "text": "Herd",
+        "type": "generated"
+      },
+      {
+        "text": "The lamb that's standing",
+        "type": "generated"
+      },
+      {
+        "text": "The little black lamb in the red-outlined box",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted black lamb",
+        "type": "generated"
+      },
+      {
+        "text": "left goat",
+        "type": "gold"
+      },
+      {
+        "text": "left guy",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073270691_15.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000260580_6.jpg",
+    "bbox": [
+      151.98079956054687,
+      82.771201171875,
+      88.729599609375,
+      90.1183984375
+    ],
+    "candidates": [
+      {
+        "text": "One of the apples",
+        "type": "generated"
+      },
+      {
+        "text": "The apple in the front left of bowl",
+        "type": "generated"
+      },
+      {
+        "text": "The apple to the left of bananas",
+        "type": "generated"
+      },
+      {
+        "text": "The apple",
+        "type": "generated"
+      },
+      {
+        "text": "The apple in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The apple to the left",
+        "type": "generated"
+      },
+      {
+        "text": "An apple",
+        "type": "generated"
+      },
+      {
+        "text": "The apple in the bowl",
+        "type": "generated"
+      },
+      {
+        "text": "The red apple",
+        "type": "generated"
+      },
+      {
+        "text": "apple on left",
+        "type": "gold"
+      },
+      {
+        "text": "first apple on left side",
+        "type": "gold"
+      },
+      {
+        "text": "Apple far left",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073279604_16.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000536054_7.jpg",
+    "bbox": [
+      43.0,
+      163.23333740234375,
+      144.53999837239581,
+      135.19332885742188
+    ],
+    "candidates": [
+      {
+        "text": "Snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "Snowboard attached to ankle",
+        "type": "generated"
+      },
+      {
+        "text": "The binding",
+        "type": "generated"
+      },
+      {
+        "text": "The boot of my snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "The snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "A snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "The boot",
+        "type": "generated"
+      },
+      {
+        "text": "The snowboarder's front right boot and heel",
+        "type": "generated"
+      },
+      {
+        "text": "The tip of the snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "legs on left",
+        "type": "gold"
+      },
+      {
+        "text": "black pants on bottom leaning",
+        "type": "gold"
+      },
+      {
+        "text": "black object lower left corner",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073288596_17.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000339499_2.jpg",
+    "bbox": [
+      371.1066691080729,
+      137.25999959309894,
+      98.55999755859375,
+      134.66666666666666
+    ],
+    "candidates": [
+      {
+        "text": "The umpire",
+        "type": "generated"
+      },
+      {
+        "text": "Umpire",
+        "type": "generated"
+      },
+      {
+        "text": "The catcher",
+        "type": "generated"
+      },
+      {
+        "text": "home plate umpire",
+        "type": "generated"
+      },
+      {
+        "text": "umpire",
+        "type": "generated"
+      },
+      {
+        "text": "Home plate umpire",
+        "type": "generated"
+      },
+      {
+        "text": "the umpire",
+        "type": "generated"
+      },
+      {
+        "text": "Behind home plate",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the catcher's pose is crou",
+        "type": "generated"
+      },
+      {
+        "text": "umpire",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073297578_18.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000053304_2.jpg",
+    "bbox": [
+      237.68000030517578,
+      71.00499725341797,
+      124.12999725341797,
+      248.9949951171875
+    ],
+    "candidates": [
+      {
+        "text": "Waiter",
+        "type": "generated"
+      },
+      {
+        "text": "The chef",
+        "type": "generated"
+      },
+      {
+        "text": "The chef in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The gentleman in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The chef behind or the area",
+        "type": "generated"
+      },
+      {
+        "text": "The chef at the pass",
+        "type": "generated"
+      },
+      {
+        "text": "The chef in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The chef in the white button-down jacket",
+        "type": "generated"
+      },
+      {
+        "text": "chef",
+        "type": "generated"
+      },
+      {
+        "text": "guy glasses",
+        "type": "gold"
+      },
+      {
+        "text": "man in the front",
+        "type": "gold"
+      },
+      {
+        "text": "chef in front",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073314704_19.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000097660_6.jpg",
+    "bbox": [
+      96.0,
+      150.99000549316406,
+      120.36000061035156,
+      169.00999450683594
+    ],
+    "candidates": [
+      {
+        "text": "The woman with long brunette hair",
+        "type": "generated"
+      },
+      {
+        "text": "the woman with brown hair to left",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with long brown hair",
+        "type": "generated"
+      },
+      {
+        "text": "Woman on the far left",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the left of table",
+        "type": "generated"
+      },
+      {
+        "text": "The lady with brown hair",
+        "type": "generated"
+      },
+      {
+        "text": "Her",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the left with long hair",
+        "type": "generated"
+      },
+      {
+        "text": "person on bottom left",
+        "type": "gold"
+      },
+      {
+        "text": "person in bottom left corner",
+        "type": "gold"
+      },
+      {
+        "text": "PERSON IN PLAID SHIRT ON LEFT CORNER",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073332329_20.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000084712_2.jpg",
+    "bbox": [
+      150.72000002861023,
+      137.35000610351562,
+      82.69499969482422,
+      174.74000549316406
+    ],
+    "candidates": [
+      {
+        "text": "The fenced off area",
+        "type": "generated"
+      },
+      {
+        "text": "The leg",
+        "type": "generated"
+      },
+      {
+        "text": "The pants",
+        "type": "generated"
+      },
+      {
+        "text": "The ski",
+        "type": "generated"
+      },
+      {
+        "text": "The skis and poles",
+        "type": "generated"
+      },
+      {
+        "text": "The lower leg and foot of the skier in",
+        "type": "generated"
+      },
+      {
+        "text": "Ski pole",
+        "type": "generated"
+      },
+      {
+        "text": "Knee",
+        "type": "generated"
+      },
+      {
+        "text": "The lower half of skier number 93",
+        "type": "generated"
+      },
+      {
+        "text": "yellow shirt",
+        "type": "gold"
+      },
+      {
+        "text": "yellow sleeve guy",
+        "type": "gold"
+      },
+      {
+        "text": "left edge of pic: cutoff person",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073336824_21.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000339913_2.jpg",
+    "bbox": [
+      245.61312573185015,
+      102.57236168032787,
+      57.779858341261715,
+      177.7686232984485
+    ],
+    "candidates": [
+      {
+        "text": "The two men in front of the bus",
+        "type": "generated"
+      },
+      {
+        "text": "The two men standing in front of the bus",
+        "type": "generated"
+      },
+      {
+        "text": "The two men",
+        "type": "generated"
+      },
+      {
+        "text": "The two men near the bus door",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the black shirt and khaki pants",
+        "type": "generated"
+      },
+      {
+        "text": "The two men standing outside the bus",
+        "type": "generated"
+      },
+      {
+        "text": "The two men at the center of image",
+        "type": "generated"
+      },
+      {
+        "text": "The men at the bus door",
+        "type": "generated"
+      },
+      {
+        "text": "The two gentlemen getting off the bus",
+        "type": "generated"
+      },
+      {
+        "text": "left guy",
+        "type": "gold"
+      },
+      {
+        "text": "guy on left",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073341391_22.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000496214_1.jpg",
+    "bbox": [
+      200.1199951171875,
+      19.413333892822266,
+      109.54667154947916,
+      218.37333170572916
+    ],
+    "candidates": [
+      {
+        "text": "The traffic light",
+        "type": "generated"
+      },
+      {
+        "text": "The stoplight",
+        "type": "generated"
+      },
+      {
+        "text": "traffic light",
+        "type": "generated"
+      },
+      {
+        "text": "The traffic light in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "Traffic light",
+        "type": "generated"
+      },
+      {
+        "text": "The light",
+        "type": "generated"
+      },
+      {
+        "text": "Three-light device",
+        "type": "generated"
+      },
+      {
+        "text": "The light on the pole",
+        "type": "generated"
+      },
+      {
+        "text": "The traffic light in the center",
+        "type": "generated"
+      },
+      {
+        "text": "traffic light",
+        "type": "gold"
+      },
+      {
+        "text": "yellow signal",
+        "type": "gold"
+      },
+      {
+        "text": "stop light",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073350496_23.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000062038_6.jpg",
+    "bbox": [
+      236.3133341471354,
+      65.94000244140625,
+      69.09333292643228,
+      155.18666585286456
+    ],
+    "candidates": [
+      {
+        "text": "The glass with the most wine in it",
+        "type": "generated"
+      },
+      {
+        "text": "The middle glass",
+        "type": "generated"
+      },
+      {
+        "text": "Wine glass closest to the viewer",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle opener",
+        "type": "generated"
+      },
+      {
+        "text": "The wine glass closest to the viewer",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object can be referred to as follows:",
+        "type": "generated"
+      },
+      {
+        "text": "The glass",
+        "type": "generated"
+      },
+      {
+        "text": "The glass in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The wine glass second from the left",
+        "type": "generated"
+      },
+      {
+        "text": "center wine glass - tiny amount of dark wine",
+        "type": "gold"
+      },
+      {
+        "text": "3RD GLASS",
+        "type": "gold"
+      },
+      {
+        "text": "glass in front of food",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073363481_24.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000249451_0.jpg",
+    "bbox": [
+      224.43839843749998,
+      61.58080078125,
+      111.123203125,
+      126.40639648437501
+    ],
+    "candidates": [
+      {
+        "text": "The pitcher",
+        "type": "generated"
+      },
+      {
+        "text": "The player",
+        "type": "generated"
+      },
+      {
+        "text": "The first baseman",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "The pitcher's hand",
+        "type": "generated"
+      },
+      {
+        "text": "The catcher",
+        "type": "generated"
+      },
+      {
+        "text": "The player at bat wearing red, white, and",
+        "type": "generated"
+      },
+      {
+        "text": "Behind the mitt",
+        "type": "generated"
+      },
+      {
+        "text": "The caught ball",
+        "type": "generated"
+      },
+      {
+        "text": "pitcher",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073368040_25.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000015678_2.jpg",
+    "bbox": [
+      209.23238554772976,
+      149.24463852229212,
+      64.7772443842314,
+      170.75536147770788
+    ],
+    "candidates": [
+      {
+        "text": "The boy sitting with his arms crossed in front of",
+        "type": "generated"
+      },
+      {
+        "text": "The boy",
+        "type": "generated"
+      },
+      {
+        "text": "The child",
+        "type": "generated"
+      },
+      {
+        "text": "The boy in the gray shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The boy in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The child in the center of photograph",
+        "type": "generated"
+      },
+      {
+        "text": "A person",
+        "type": "generated"
+      },
+      {
+        "text": "Child in gray shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The boy in the brown shirt with his hand over",
+        "type": "generated"
+      },
+      {
+        "text": "The sitting boy.",
+        "type": "gold"
+      },
+      {
+        "text": "close middle kid",
+        "type": "gold"
+      },
+      {
+        "text": "center sitting person",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073381044_26.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000403567_4.jpg",
+    "bbox": [
+      255.1252564709596,
+      34.95434323705808,
+      64.14222301136364,
+      162.8832366635101
+    ],
+    "candidates": [
+      {
+        "text": "The central mounted police officer",
+        "type": "generated"
+      },
+      {
+        "text": "The central rider",
+        "type": "generated"
+      },
+      {
+        "text": "The central officer",
+        "type": "generated"
+      },
+      {
+        "text": "The officer in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the third horse from left",
+        "type": "generated"
+      },
+      {
+        "text": "The police officer in the foreground",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the middle holding gun and steering",
+        "type": "generated"
+      },
+      {
+        "text": "The central figure riding a white horse",
+        "type": "generated"
+      },
+      {
+        "text": "middle guy on white horse",
+        "type": "gold"
+      },
+      {
+        "text": "2nd from right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073390247_27.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000344920_1.jpg",
+    "bbox": [
+      17.54379386812518,
+      106.42435185524006,
+      203.39859759221312,
+      213.5756367096019
+    ],
+    "candidates": [
+      {
+        "text": "The bed on the left",
+        "type": "generated"
+      },
+      {
+        "text": "the bed",
+        "type": "generated"
+      },
+      {
+        "text": "The bed",
+        "type": "generated"
+      },
+      {
+        "text": "the backpack",
+        "type": "generated"
+      },
+      {
+        "text": "The item within the red box highlight appears to be",
+        "type": "generated"
+      },
+      {
+        "text": "A black backpack",
+        "type": "generated"
+      },
+      {
+        "text": "The mattress",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object is the black bag with a white",
+        "type": "generated"
+      },
+      {
+        "text": "The bed on the left side of image",
+        "type": "generated"
+      },
+      {
+        "text": "left bed",
+        "type": "gold"
+      },
+      {
+        "text": "BED ON LEFT",
+        "type": "gold"
+      },
+      {
+        "text": "L bed",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073394813_28.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000427523_0.jpg",
+    "bbox": [
+      10.368000030517578,
+      162.98399658203127,
+      181.80799560546876,
+      114.91199951171876
+    ],
+    "candidates": [
+      {
+        "text": "The horse on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The brown horse with white socks on its feet",
+        "type": "generated"
+      },
+      {
+        "text": "The horse",
+        "type": "generated"
+      },
+      {
+        "text": "The horse in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The horse on the left side of image is",
+        "type": "generated"
+      },
+      {
+        "text": "The horse to the left of man",
+        "type": "generated"
+      },
+      {
+        "text": "That horse",
+        "type": "generated"
+      },
+      {
+        "text": "The blue box",
+        "type": "generated"
+      },
+      {
+        "text": "The horse being judged",
+        "type": "generated"
+      },
+      {
+        "text": "Horse on the left.",
+        "type": "gold"
+      },
+      {
+        "text": "left horse",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073412770_29.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000009029_1.jpg",
+    "bbox": [
+      81.87623506433823,
+      73.84847196691176,
+      318.5618795955882,
+      212.13363970588236
+    ],
+    "candidates": [
+      {
+        "text": "The train",
+        "type": "generated"
+      },
+      {
+        "text": "The front train",
+        "type": "generated"
+      },
+      {
+        "text": "train",
+        "type": "generated"
+      },
+      {
+        "text": "The train at the station",
+        "type": "generated"
+      },
+      {
+        "text": "the train",
+        "type": "generated"
+      },
+      {
+        "text": "The train engine",
+        "type": "generated"
+      },
+      {
+        "text": "The train in the middle of photo",
+        "type": "generated"
+      },
+      {
+        "text": "Train",
+        "type": "generated"
+      },
+      {
+        "text": "The train in the red box is a green and",
+        "type": "generated"
+      },
+      {
+        "text": "green train",
+        "type": "gold"
+      },
+      {
+        "text": "green and yellow train",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073421826_30.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000034223_5.jpg",
+    "bbox": [
+      377.378671875,
+      5.085866699218751,
+      89.89013020833333,
+      247.36427083333334
+    ],
+    "candidates": [
+      {
+        "text": "The man with his legs crossed",
+        "type": "generated"
+      },
+      {
+        "text": "The person on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The person in black pants",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the right wearing a white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man wearing an ID, standing at the back",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the black slacks",
+        "type": "generated"
+      },
+      {
+        "text": "far right dud",
+        "type": "gold"
+      },
+      {
+        "text": "man holding a cup",
+        "type": "gold"
+      },
+      {
+        "text": "guy on far right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073435088_31.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000047984_3.jpg",
+    "bbox": [
+      221.22717085040986,
+      81.49882903981265,
+      106.69414153981265,
+      201.03794642857144
+    ],
+    "candidates": [
+      {
+        "text": "The motorcycle",
+        "type": "generated"
+      },
+      {
+        "text": "The boy in the white t-shirt and brown pants",
+        "type": "generated"
+      },
+      {
+        "text": "The boy on the motorcycle",
+        "type": "generated"
+      },
+      {
+        "text": "The boy looking at the motorcycle",
+        "type": "generated"
+      },
+      {
+        "text": "The boy with blonde hair and the motorcycle",
+        "type": "generated"
+      },
+      {
+        "text": "The motorbike",
+        "type": "generated"
+      },
+      {
+        "text": "The young boy",
+        "type": "generated"
+      },
+      {
+        "text": "The motorcycle behind the two children in center",
+        "type": "generated"
+      },
+      {
+        "text": "The child and motorcycle",
+        "type": "generated"
+      },
+      {
+        "text": "kid in white shirt in the middle",
+        "type": "gold"
+      },
+      {
+        "text": "middle",
+        "type": "gold"
+      },
+      {
+        "text": "kid touching bike",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073444208_32.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000080634_1.jpg",
+    "bbox": [
+      193.61502118177816,
+      170.42629474765258,
+      127.28638268412558,
+      145.97558822990024
+    ],
+    "candidates": [
+      {
+        "text": "Pizza slice",
+        "type": "generated"
+      },
+      {
+        "text": "Pizza slice in the lower right quadrant",
+        "type": "generated"
+      },
+      {
+        "text": "Pizza slice number four",
+        "type": "generated"
+      },
+      {
+        "text": "slice of pizza",
+        "type": "generated"
+      },
+      {
+        "text": "the slice of pizza directly beneath center",
+        "type": "generated"
+      },
+      {
+        "text": "The pizza slice at the bottom center of",
+        "type": "generated"
+      },
+      {
+        "text": "The slice of pizza in the bottom middle",
+        "type": "generated"
+      },
+      {
+        "text": "The slice in the lower center of pizza",
+        "type": "generated"
+      },
+      {
+        "text": "The slice in the lower center-right of pizza",
+        "type": "generated"
+      },
+      {
+        "text": "bottom slice",
+        "type": "gold"
+      },
+      {
+        "text": "the slice of pizza on the very bottom of the box",
+        "type": "gold"
+      },
+      {
+        "text": "sorry. slice at 6 o'clock",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073453336_33.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000018290_1.jpg",
+    "bbox": [
+      94.24000244140626,
+      115.552001953125,
+      116.08800048828125,
+      180.96800537109377
+    ],
+    "candidates": [
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "The batter",
+        "type": "generated"
+      },
+      {
+        "text": "First baseman",
+        "type": "generated"
+      },
+      {
+        "text": "batter",
+        "type": "generated"
+      },
+      {
+        "text": "home plate",
+        "type": "generated"
+      },
+      {
+        "text": "The batter who just hit the ball",
+        "type": "generated"
+      },
+      {
+        "text": "The guy at bat",
+        "type": "generated"
+      },
+      {
+        "text": "Hitter",
+        "type": "generated"
+      },
+      {
+        "text": "number 24",
+        "type": "generated"
+      },
+      {
+        "text": "batter",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073462457_34.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000314357_3.jpg",
+    "bbox": [
+      140.2800006866455,
+      20.764999389648438,
+      85.95999908447266,
+      100.41000366210938
+    ],
+    "candidates": [
+      {
+        "text": "The man on the left wearing all black",
+        "type": "generated"
+      },
+      {
+        "text": "The player",
+        "type": "generated"
+      },
+      {
+        "text": "The goalkeeper",
+        "type": "generated"
+      },
+      {
+        "text": "The keeper",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "He",
+        "type": "generated"
+      },
+      {
+        "text": "His arm",
+        "type": "generated"
+      },
+      {
+        "text": "The goal tender",
+        "type": "generated"
+      },
+      {
+        "text": "The goalie",
+        "type": "generated"
+      },
+      {
+        "text": "boy in black shirt",
+        "type": "gold"
+      },
+      {
+        "text": "head of top guy",
+        "type": "gold"
+      },
+      {
+        "text": "guy on top",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073483551_35.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000319543_25.jpg",
+    "bbox": [
+      43.0,
+      108.586669921875,
+      137.36666870117188,
+      143.72000122070312
+    ],
+    "candidates": [
+      {
+        "text": "A pillow",
+        "type": "generated"
+      },
+      {
+        "text": "The sofa",
+        "type": "generated"
+      },
+      {
+        "text": "The armchair",
+        "type": "generated"
+      },
+      {
+        "text": "The couch where people are resting",
+        "type": "generated"
+      },
+      {
+        "text": "The ottoman",
+        "type": "generated"
+      },
+      {
+        "text": "The pillow on the left side of couch",
+        "type": "generated"
+      },
+      {
+        "text": "The pillow on the beige couch left",
+        "type": "generated"
+      },
+      {
+        "text": "The blanket on the chair",
+        "type": "generated"
+      },
+      {
+        "text": "The chair in the living room with turquoise sh",
+        "type": "generated"
+      },
+      {
+        "text": "sofa on far left with white pillow",
+        "type": "gold"
+      },
+      {
+        "text": "tan couch with white pillow",
+        "type": "gold"
+      },
+      {
+        "text": "left couche behind white chair",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073492463_36.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000377331_1.jpg",
+    "bbox": [
+      298.56903765690373,
+      89.08452373169456,
+      100.49205061780857,
+      224.50209613624477
+    ],
+    "candidates": [
+      {
+        "text": "Hamburger",
+        "type": "generated"
+      },
+      {
+        "text": "Hamburge\u00f1a de queso",
+        "type": "generated"
+      },
+      {
+        "text": "The hot dog",
+        "type": "generated"
+      },
+      {
+        "text": "hotdog",
+        "type": "generated"
+      },
+      {
+        "text": "she",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "El hot dog",
+        "type": "generated"
+      },
+      {
+        "text": "Hamb\u00fargueras Queso y",
+        "type": "generated"
+      },
+      {
+        "text": "Hamb\u00farguesa con queso",
+        "type": "generated"
+      },
+      {
+        "text": "woman",
+        "type": "gold"
+      },
+      {
+        "text": "girl",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073497031_37.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000545428_5.jpg",
+    "bbox": [
+      285.8333333333333,
+      244.3133341471354,
+      153.88666788736978,
+      75.68666585286458
+    ],
+    "candidates": [
+      {
+        "text": "The certificate",
+        "type": "generated"
+      },
+      {
+        "text": "The document in the mail, specifically orange envelope",
+        "type": "generated"
+      },
+      {
+        "text": "The item highlighted by the red box is a",
+        "type": "generated"
+      },
+      {
+        "text": "Vermont tax appeal letter",
+        "type": "generated"
+      },
+      {
+        "text": "The document with the official seal in upper left",
+        "type": "generated"
+      },
+      {
+        "text": "The document in the orange envelope",
+        "type": "generated"
+      },
+      {
+        "text": "The document on the bottom right of bed with",
+        "type": "generated"
+      },
+      {
+        "text": "The document on the right side of bed next",
+        "type": "generated"
+      },
+      {
+        "text": "Property Tax Assessment Complaint",
+        "type": "generated"
+      },
+      {
+        "text": "right pape",
+        "type": "gold"
+      },
+      {
+        "text": "town of randolph letter",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073506004_38.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000463474_1.jpg",
+    "bbox": [
+      129.72000002861023,
+      52.54999923706055,
+      96.79499816894531,
+      148.0800018310547
+    ],
+    "candidates": [
+      {
+        "text": "The skateboarder in mid-air wearing blue jean cap",
+        "type": "generated"
+      },
+      {
+        "text": "The skateboarder",
+        "type": "generated"
+      },
+      {
+        "text": "The person doing a front flip off the ramp",
+        "type": "generated"
+      },
+      {
+        "text": "The skateboarder performing a trick over the skateboard with",
+        "type": "generated"
+      },
+      {
+        "text": "The skateboarder turning",
+        "type": "generated"
+      },
+      {
+        "text": "The person grling the ramp",
+        "type": "generated"
+      },
+      {
+        "text": "The person falling off the skateboard",
+        "type": "generated"
+      },
+      {
+        "text": "The skateboarder in action",
+        "type": "generated"
+      },
+      {
+        "text": "skater",
+        "type": "generated"
+      },
+      {
+        "text": "left skateboarder",
+        "type": "gold"
+      },
+      {
+        "text": "very left kid",
+        "type": "gold"
+      },
+      {
+        "text": "left person",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073515110_39.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000194774_8.jpg",
+    "bbox": [
+      287.87333170572913,
+      64.10666910807291,
+      67.89999898274739,
+      181.3133341471354
+    ],
+    "candidates": [
+      {
+        "text": "The lady with black hair in a suit",
+        "type": "generated"
+      },
+      {
+        "text": "The person with the black briefcase",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the black suit",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with black salad",
+        "type": "generated"
+      },
+      {
+        "text": "The man carrying the suitcase",
+        "type": "generated"
+      },
+      {
+        "text": "The person with the bag",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with her back turned",
+        "type": "generated"
+      },
+      {
+        "text": "The person pulling the suitcase",
+        "type": "generated"
+      },
+      {
+        "text": "black shirt",
+        "type": "gold"
+      },
+      {
+        "text": "guy in blac shirt",
+        "type": "gold"
+      },
+      {
+        "text": "person in almost all black",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073524088_40.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000066944_6.jpg",
+    "bbox": [
+      220.68499755859375,
+      132.06500244140625,
+      52.970001220703125,
+      174.14999389648438
+    ],
+    "candidates": [
+      {
+        "text": "The man in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the gray Royals uniform",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the blue shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the blue hat who is kneeling with",
+        "type": "generated"
+      },
+      {
+        "text": "The manager",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the gray striped shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man standing on the steps",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in front of the catcher",
+        "type": "generated"
+      },
+      {
+        "text": "guy in between the two players high fiving",
+        "type": "gold"
+      },
+      {
+        "text": "man under arms of players high fiving",
+        "type": "gold"
+      },
+      {
+        "text": "lower man in the middle of the higher two",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073528649_41.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000577399_4.jpg",
+    "bbox": [
+      154.46826706099563,
+      90.6293165344639,
+      195.15798088758206,
+      225.18336723878554
+    ],
+    "candidates": [
+      {
+        "text": "The girl brushing her teeth",
+        "type": "generated"
+      },
+      {
+        "text": "The middle girl",
+        "type": "generated"
+      },
+      {
+        "text": "The girl",
+        "type": "generated"
+      },
+      {
+        "text": "Girl brushing teeth",
+        "type": "generated"
+      },
+      {
+        "text": "The little girl in toothpaste",
+        "type": "generated"
+      },
+      {
+        "text": "The young girl in the foreground",
+        "type": "generated"
+      },
+      {
+        "text": "The girl in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The girl with shoulder-length brown hair",
+        "type": "generated"
+      },
+      {
+        "text": "The girl with toothbrush in mouth",
+        "type": "generated"
+      },
+      {
+        "text": "girl brushing teeth",
+        "type": "gold"
+      },
+      {
+        "text": "girl brush front",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073537759_42.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000275211_10.jpg",
+    "bbox": [
+      43.0,
+      1.1466666857401528,
+      196.45332845052081,
+      120.03333536783853
+    ],
+    "candidates": [
+      {
+        "text": "Umbrella",
+        "type": "generated"
+      },
+      {
+        "text": "The umbrella",
+        "type": "generated"
+      },
+      {
+        "text": "The upper left-hand part",
+        "type": "generated"
+      },
+      {
+        "text": "a hot dog stand",
+        "type": "generated"
+      },
+      {
+        "text": "umbrella",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted hot dog cart",
+        "type": "generated"
+      },
+      {
+        "text": "Above the vendor's cart",
+        "type": "generated"
+      },
+      {
+        "text": "Hotdog stand",
+        "type": "generated"
+      },
+      {
+        "text": "the umbrella",
+        "type": "generated"
+      },
+      {
+        "text": "umbrella on left",
+        "type": "gold"
+      },
+      {
+        "text": "left umbrella",
+        "type": "gold"
+      },
+      {
+        "text": "umbrella on th left",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073551073_43.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000433792_1.jpg",
+    "bbox": [
+      16.72112674444494,
+      82.69671086414318,
+      198.46759921508215,
+      45.30328741655663
+    ],
+    "candidates": [
+      {
+        "text": "The pizza",
+        "type": "generated"
+      },
+      {
+        "text": "Pizza",
+        "type": "generated"
+      },
+      {
+        "text": "The pizza with white cheese, likely mozzarella",
+        "type": "generated"
+      },
+      {
+        "text": "pizza, left side",
+        "type": "generated"
+      },
+      {
+        "text": "The pizza in the back",
+        "type": "generated"
+      },
+      {
+        "text": "The pizza in the top left of image",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted pizza",
+        "type": "generated"
+      },
+      {
+        "text": "The pizza slices at the top left",
+        "type": "generated"
+      },
+      {
+        "text": "The pizza in the back left",
+        "type": "generated"
+      },
+      {
+        "text": "top pizza",
+        "type": "gold"
+      },
+      {
+        "text": "farthest pizza",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073559708_44.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000389061_3.jpg",
+    "bbox": [
+      166.69316931935816,
+      137.47412008281574,
+      154.25590183423913,
+      108.3362347146739
+    ],
+    "candidates": [
+      {
+        "text": "The food",
+        "type": "generated"
+      },
+      {
+        "text": "The toasted sandwich",
+        "type": "generated"
+      },
+      {
+        "text": "The front middle food item",
+        "type": "generated"
+      },
+      {
+        "text": "The object highlighted by the red box is:",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted item is the club sandwich in center",
+        "type": "generated"
+      },
+      {
+        "text": "The grilled sandwich",
+        "type": "generated"
+      },
+      {
+        "text": "The middle and highest-layered sandwich",
+        "type": "generated"
+      },
+      {
+        "text": "The sandwich",
+        "type": "generated"
+      },
+      {
+        "text": "The object highlighted by the red box is first",
+        "type": "generated"
+      },
+      {
+        "text": "left side of sandwhich",
+        "type": "gold"
+      },
+      {
+        "text": "blt sandwich",
+        "type": "gold"
+      },
+      {
+        "text": "grilled sandwich on left side of plate",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073568821_45.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000308488_17.jpg",
+    "bbox": [
+      33.701531775409855,
+      28.470897048516136,
+      234.66433602297593,
+      291.52910028036104
+    ],
+    "candidates": [
+      {
+        "text": "The woman in the lower left",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "The woman holding the knife",
+        "type": "generated"
+      },
+      {
+        "text": "The lady cutting the cake",
+        "type": "generated"
+      },
+      {
+        "text": "Woman with short hair",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the foreground on left side of",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the left",
+        "type": "generated"
+      },
+      {
+        "text": "Woman cutting cake",
+        "type": "generated"
+      },
+      {
+        "text": "The woman cake-cutting",
+        "type": "generated"
+      },
+      {
+        "text": "woman front left",
+        "type": "gold"
+      },
+      {
+        "text": "person cutting cake",
+        "type": "gold"
+      },
+      {
+        "text": "Woman left",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073577932_46.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000521064_1.jpg",
+    "bbox": [
+      278.8666585286458,
+      191.2800089518229,
+      190.80000813802081,
+      125.12666829427083
+    ],
+    "candidates": [
+      {
+        "text": "The bananas",
+        "type": "generated"
+      },
+      {
+        "text": "bananas",
+        "type": "generated"
+      },
+      {
+        "text": "Bananas",
+        "type": "generated"
+      },
+      {
+        "text": "A banana",
+        "type": "generated"
+      },
+      {
+        "text": "The bananas in the foreground",
+        "type": "generated"
+      },
+      {
+        "text": "banana",
+        "type": "generated"
+      },
+      {
+        "text": "the bananas",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch of bananas",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object is: a banana",
+        "type": "generated"
+      },
+      {
+        "text": "Banana bottom right corner",
+        "type": "gold"
+      },
+      {
+        "text": "banana on the bottom right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073587044_47.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000229236_11.jpg",
+    "bbox": [
+      325.77118263961376,
+      160.28058332789666,
+      143.7862184401096,
+      81.88392463954854
+    ],
+    "candidates": [
+      {
+        "text": "The laptop",
+        "type": "generated"
+      },
+      {
+        "text": "laptop",
+        "type": "generated"
+      },
+      {
+        "text": "computer screen",
+        "type": "generated"
+      },
+      {
+        "text": "the laptop",
+        "type": "generated"
+      },
+      {
+        "text": "screen",
+        "type": "generated"
+      },
+      {
+        "text": "laptop computer the",
+        "type": "generated"
+      },
+      {
+        "text": "The computer",
+        "type": "generated"
+      },
+      {
+        "text": "computer",
+        "type": "generated"
+      },
+      {
+        "text": "Computer laptop computer",
+        "type": "generated"
+      },
+      {
+        "text": "white laptop on right",
+        "type": "gold"
+      },
+      {
+        "text": "laptop right",
+        "type": "gold"
+      },
+      {
+        "text": "right laptop",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073599983_48.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000064962_1.jpg",
+    "bbox": [
+      119.06405260671977,
+      151.3516295189951,
+      232.78953801572715,
+      164.32417726205065
+    ],
+    "candidates": [
+      {
+        "text": "One of the giraffes in front left",
+        "type": "generated"
+      },
+      {
+        "text": "The necks and heads of two giraffes",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe in the lower portion of photo",
+        "type": "generated"
+      },
+      {
+        "text": "The two giraffes most in the foreground",
+        "type": "generated"
+      },
+      {
+        "text": "The two heads of giraffe",
+        "type": "generated"
+      },
+      {
+        "text": "The two heads nearest the camera",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe at the bottom of image",
+        "type": "generated"
+      },
+      {
+        "text": "The neck and head of the giraffe in",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe's neck and head",
+        "type": "generated"
+      },
+      {
+        "text": "closest giraffe",
+        "type": "gold"
+      },
+      {
+        "text": "front girafe",
+        "type": "gold"
+      },
+      {
+        "text": "parially visible giraffe",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073621243_49.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000184835_13.jpg",
+    "bbox": [
+      324.8000081380208,
+      177.65999348958331,
+      80.72000122070312,
+      139.09999593098956
+    ],
+    "candidates": [
+      {
+        "text": "The man sitting on the floor with his back against",
+        "type": "generated"
+      },
+      {
+        "text": "The person lying on the floor wearing black clothing",
+        "type": "generated"
+      },
+      {
+        "text": "The man kneeling on the floor in front of",
+        "type": "generated"
+      },
+      {
+        "text": "The man being propped up",
+        "type": "generated"
+      },
+      {
+        "text": "The man in front of the seated guy",
+        "type": "generated"
+      },
+      {
+        "text": "The person on the floor",
+        "type": "generated"
+      },
+      {
+        "text": "The object highlighted by the red box is: man",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in the black shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the ground",
+        "type": "generated"
+      },
+      {
+        "text": "dude sitting with face covered in black",
+        "type": "gold"
+      },
+      {
+        "text": "lower space betwen white shirt girl and brown jacket",
+        "type": "gold"
+      },
+      {
+        "text": "BLACK AREA TO RIGHT OF MAN IN TSHIR NEAR LEGS",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073625810_50.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000239928_1.jpg",
+    "bbox": [
+      127.07822105532787,
+      168.60327548668033,
+      103.97377460846019,
+      144.42716719115927
+    ],
+    "candidates": [
+      {
+        "text": "The pony with the back leg raised",
+        "type": "generated"
+      },
+      {
+        "text": "The horse's left front leg",
+        "type": "generated"
+      },
+      {
+        "text": "The horse's back right hoof",
+        "type": "generated"
+      },
+      {
+        "text": "The horse",
+        "type": "generated"
+      },
+      {
+        "text": "the horse behind jockey in blue helmet",
+        "type": "generated"
+      },
+      {
+        "text": "Horse's legs",
+        "type": "generated"
+      },
+      {
+        "text": "The horse's leg",
+        "type": "generated"
+      },
+      {
+        "text": "The horse on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The horse's back left leg",
+        "type": "generated"
+      },
+      {
+        "text": "The horse the person in blue is riding.",
+        "type": "gold"
+      },
+      {
+        "text": "small light brown horse being ridden by person in blue",
+        "type": "gold"
+      },
+      {
+        "text": "horse w/ person in blue on it",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073630372_51.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000297171_7.jpg",
+    "bbox": [
+      239.5800018310547,
+      128.47999572753906,
+      74.12000274658203,
+      78.625
+    ],
+    "candidates": [
+      {
+        "text": "The TV with the white band and red box drawn",
+        "type": "generated"
+      },
+      {
+        "text": "The television",
+        "type": "generated"
+      },
+      {
+        "text": "The TV in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The tube TV",
+        "type": "generated"
+      },
+      {
+        "text": "The TV",
+        "type": "generated"
+      },
+      {
+        "text": "The old tube TV",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object is the middle television",
+        "type": "generated"
+      },
+      {
+        "text": "A tube television",
+        "type": "generated"
+      },
+      {
+        "text": "TV",
+        "type": "generated"
+      },
+      {
+        "text": "middle middle tv",
+        "type": "gold"
+      },
+      {
+        "text": "middle tv of 3 tv stack",
+        "type": "gold"
+      },
+      {
+        "text": "middle tv in set of 3",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073639487_52.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000080590_3.jpg",
+    "bbox": [
+      93.56853190104167,
+      0.0,
+      97.51039713541667,
+      238.19093750000002
+    ],
+    "candidates": [
+      {
+        "text": "It",
+        "type": "generated"
+      },
+      {
+        "text": "The first green bottle on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle in the background",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle in the back left",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle in front of the first glass on",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object of the wine bottles",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle behind the first wine glass on left",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle to the left of wine glasses in",
+        "type": "generated"
+      },
+      {
+        "text": "The bottle with a green image on the label,",
+        "type": "generated"
+      },
+      {
+        "text": "green bottle",
+        "type": "gold"
+      },
+      {
+        "text": "tall bottle on left says blanc",
+        "type": "gold"
+      },
+      {
+        "text": "green back left",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073648384_53.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000160516_7.jpg",
+    "bbox": [
+      17.0,
+      0.4186915905676155,
+      51.663550261025115,
+      315.82804742260515
+    ],
+    "candidates": [
+      {
+        "text": "The red box highlights the woman's head",
+        "type": "generated"
+      },
+      {
+        "text": "The woman's left ear",
+        "type": "generated"
+      },
+      {
+        "text": "The woman",
+        "type": "generated"
+      },
+      {
+        "text": "arm",
+        "type": "generated"
+      },
+      {
+        "text": "The back of the woman's head",
+        "type": "generated"
+      },
+      {
+        "text": "The woman's head",
+        "type": "generated"
+      },
+      {
+        "text": "The red box highlights the arm of person in",
+        "type": "generated"
+      },
+      {
+        "text": "The back of the head",
+        "type": "generated"
+      },
+      {
+        "text": "Man's right shoulder",
+        "type": "generated"
+      },
+      {
+        "text": "far left red shirt",
+        "type": "gold"
+      },
+      {
+        "text": "far left red sleeve",
+        "type": "gold"
+      },
+      {
+        "text": "peron in red on the left, cut off",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073657495_54.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000434145_0.jpg",
+    "bbox": [
+      178.42499923706055,
+      58.42499923706055,
+      155.3300018310547,
+      104.98999786376953
+    ],
+    "candidates": [
+      {
+        "text": "Laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop screen to the right",
+        "type": "generated"
+      },
+      {
+        "text": "The Laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop in the middle of screen",
+        "type": "generated"
+      },
+      {
+        "text": "Laptop computer",
+        "type": "generated"
+      },
+      {
+        "text": "The computer",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop computer",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop displaying the identical screen content as large",
+        "type": "generated"
+      },
+      {
+        "text": "bigger screen",
+        "type": "gold"
+      },
+      {
+        "text": "bigger screen in the back",
+        "type": "gold"
+      },
+      {
+        "text": "bigger computer screen",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073662057_55.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000170980_0.jpg",
+    "bbox": [
+      58.104000651041666,
+      75.50293619791667,
+      137.34399739583336,
+      180.4970703125
+    ],
+    "candidates": [
+      {
+        "text": "The bear on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The teddy bear on the far left is highlighted",
+        "type": "generated"
+      },
+      {
+        "text": "The bear on the far left",
+        "type": "generated"
+      },
+      {
+        "text": "The first two stuffed bears",
+        "type": "generated"
+      },
+      {
+        "text": "The third bear from the left",
+        "type": "generated"
+      },
+      {
+        "text": "The leftmost bear",
+        "type": "generated"
+      },
+      {
+        "text": "The teddy bear on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The bear in the front left",
+        "type": "generated"
+      },
+      {
+        "text": "The first three bears on the left",
+        "type": "generated"
+      },
+      {
+        "text": "bear second from left",
+        "type": "gold"
+      },
+      {
+        "text": "2nd from left",
+        "type": "gold"
+      },
+      {
+        "text": "second toy from left",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073675501_56.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000278931_5.jpg",
+    "bbox": [
+      108.55424848568985,
+      130.87058472477534,
+      51.921570223141345,
+      108.34510154973448
+    ],
+    "candidates": [
+      {
+        "text": "The man's elbow",
+        "type": "generated"
+      },
+      {
+        "text": "The shoulder and sleeve of the man next to",
+        "type": "generated"
+      },
+      {
+        "text": "The person's arm",
+        "type": "generated"
+      },
+      {
+        "text": "The sleeve of the person next to boy",
+        "type": "generated"
+      },
+      {
+        "text": "The object highlighted by the red box is folded",
+        "type": "generated"
+      },
+      {
+        "text": "The arm and part of the head person",
+        "type": "generated"
+      },
+      {
+        "text": "The forearm",
+        "type": "generated"
+      },
+      {
+        "text": "The plaid shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The plaid-sleeved elbow",
+        "type": "generated"
+      },
+      {
+        "text": "checkered shirt",
+        "type": "gold"
+      },
+      {
+        "text": "far left person arm only",
+        "type": "gold"
+      },
+      {
+        "text": "person in a checked shirt",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073684478_57.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000507215_3.jpg",
+    "bbox": [
+      306.9529411764706,
+      0.0,
+      110.74258961397058,
+      76.9430606617647
+    ],
+    "candidates": [
+      {
+        "text": "The shoes",
+        "type": "generated"
+      },
+      {
+        "text": "Jeans",
+        "type": "generated"
+      },
+      {
+        "text": "The jeans",
+        "type": "generated"
+      },
+      {
+        "text": "The legs and bottom part of a person's jeans",
+        "type": "generated"
+      },
+      {
+        "text": "The person's legs",
+        "type": "generated"
+      },
+      {
+        "text": "The legs",
+        "type": "generated"
+      },
+      {
+        "text": "The crossed legs",
+        "type": "generated"
+      },
+      {
+        "text": "The legs of a person",
+        "type": "generated"
+      },
+      {
+        "text": "His pants legs",
+        "type": "generated"
+      },
+      {
+        "text": "blue jeans man on the right",
+        "type": "gold"
+      },
+      {
+        "text": "jeans on right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073689038_58.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000391088_1.jpg",
+    "bbox": [
+      105.35000038146973,
+      114.33499908447266,
+      132.31500244140625,
+      136.6300048828125
+    ],
+    "candidates": [
+      {
+        "text": "The highlighted donut",
+        "type": "generated"
+      },
+      {
+        "text": "Pink frosted",
+        "type": "generated"
+      },
+      {
+        "text": "A pink donut",
+        "type": "generated"
+      },
+      {
+        "text": "The pink frosted donut",
+        "type": "generated"
+      },
+      {
+        "text": "The doughnut with pink frosting",
+        "type": "generated"
+      },
+      {
+        "text": "The pink frosted doughnut",
+        "type": "generated"
+      },
+      {
+        "text": "The donut with pink frosting and white sprinkles",
+        "type": "generated"
+      },
+      {
+        "text": "The pink donut",
+        "type": "generated"
+      },
+      {
+        "text": "A pink frosted doughnut",
+        "type": "generated"
+      },
+      {
+        "text": "pinke/red donut",
+        "type": "gold"
+      },
+      {
+        "text": "pink",
+        "type": "gold"
+      },
+      {
+        "text": "pink donut",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073698004_59.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000243187_3.jpg",
+    "bbox": [
+      337.22744810814953,
+      133.0352902879902,
+      130.87058871400123,
+      104.98823577282475
+    ],
+    "candidates": [
+      {
+        "text": "The zebra in the second from right position",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the back",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the back right",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra facing away from the viewers",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in front",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in front of the larger",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra on the right side of group",
+        "type": "generated"
+      },
+      {
+        "text": "zebras in the back",
+        "type": "generated"
+      },
+      {
+        "text": "The female zebra",
+        "type": "generated"
+      },
+      {
+        "text": "right most zebra",
+        "type": "gold"
+      },
+      {
+        "text": "R Z",
+        "type": "gold"
+      },
+      {
+        "text": "right zebra",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073707786_60.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000226840_0.jpg",
+    "bbox": [
+      188.913330078125,
+      76.36000061035156,
+      119.71333821614583,
+      168.7266642252604
+    ],
+    "candidates": [
+      {
+        "text": "The zebra in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The middle zebra",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra on the middle left",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the center of image",
+        "type": "generated"
+      },
+      {
+        "text": "Middle zebra",
+        "type": "generated"
+      },
+      {
+        "text": "the middle zebra",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the middle of picture",
+        "type": "generated"
+      },
+      {
+        "text": "middle zebra",
+        "type": "gold"
+      },
+      {
+        "text": "zebra standing in the middle",
+        "type": "gold"
+      },
+      {
+        "text": "center zebra",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073717581_61.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000326475_1.jpg",
+    "bbox": [
+      16.0,
+      66.87699438820422,
+      254.56526921948355,
+      225.79530241343895
+    ],
+    "candidates": [
+      {
+        "text": "The first giraffe on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The smaller giraffe in the left part of",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe with only its head visible",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe in the left rectangle",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe looking left",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe to the right",
+        "type": "generated"
+      },
+      {
+        "text": "The giraffe with darker brown spots",
+        "type": "generated"
+      },
+      {
+        "text": "left giraffe",
+        "type": "gold"
+      },
+      {
+        "text": "giraffe on left",
+        "type": "gold"
+      },
+      {
+        "text": "L giraffe",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073736807_62.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000219565_2.jpg",
+    "bbox": [
+      250.14352022058824,
+      1.4381176219267005,
+      118.65599724264706,
+      219.32424172794117
+    ],
+    "candidates": [
+      {
+        "text": "The man",
+        "type": "generated"
+      },
+      {
+        "text": "The cake",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box is one wearing",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the center with grey hair",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the military uniform",
+        "type": "generated"
+      },
+      {
+        "text": "the person on right",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box appears to be referring",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the military uniform",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "man to the most right",
+        "type": "gold"
+      },
+      {
+        "text": "army guy behind redhead",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073746473_63.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000378461_3.jpg",
+    "bbox": [
+      294.8301932856722,
+      187.0867919921875,
+      93.33584767467572,
+      120.83019328567218
+    ],
+    "candidates": [
+      {
+        "text": "The dishwasher",
+        "type": "generated"
+      },
+      {
+        "text": "The dishwasher's door",
+        "type": "generated"
+      },
+      {
+        "text": "dishwasher",
+        "type": "generated"
+      },
+      {
+        "text": "the dishwasher",
+        "type": "generated"
+      },
+      {
+        "text": "Below the plate, but above drawer handle in",
+        "type": "generated"
+      },
+      {
+        "text": "The dishwasher under the countertop to left of",
+        "type": "generated"
+      },
+      {
+        "text": "washer",
+        "type": "generated"
+      },
+      {
+        "text": "Dishwasher",
+        "type": "generated"
+      },
+      {
+        "text": "Under the sink cabinet on right",
+        "type": "generated"
+      },
+      {
+        "text": "dishwasher",
+        "type": "gold"
+      },
+      {
+        "text": "black dishwasher",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073756220_64.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000360271_1.jpg",
+    "bbox": [
+      247.93000030517578,
+      31.655000686645508,
+      104.75,
+      149.9550018310547
+    ],
+    "candidates": [
+      {
+        "text": "The person holding the baby",
+        "type": "generated"
+      },
+      {
+        "text": "The man holding the baby",
+        "type": "generated"
+      },
+      {
+        "text": "Man with baby",
+        "type": "generated"
+      },
+      {
+        "text": "The baby",
+        "type": "generated"
+      },
+      {
+        "text": "The man feeding the baby",
+        "type": "generated"
+      },
+      {
+        "text": "The man holding baby",
+        "type": "generated"
+      },
+      {
+        "text": "Man with arm around baby",
+        "type": "generated"
+      },
+      {
+        "text": "man holding baby",
+        "type": "generated"
+      },
+      {
+        "text": "A man with a baby",
+        "type": "generated"
+      },
+      {
+        "text": "blue guy",
+        "type": "gold"
+      },
+      {
+        "text": "blue shirt rightmost",
+        "type": "gold"
+      },
+      {
+        "text": "guy blue shirt",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073774619_65.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000550134_6.jpg",
+    "bbox": [
+      188.01764634076287,
+      39.588237089269306,
+      155.7588285558364,
+      170.32941032858457
+    ],
+    "candidates": [
+      {
+        "text": "The man on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the middle wearing blue t-shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man between the elephants",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The person on the top elephant",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the elephant",
+        "type": "generated"
+      },
+      {
+        "text": "The middle one",
+        "type": "generated"
+      },
+      {
+        "text": "The man who is grooming the elephant's tusk",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "elephant driver",
+        "type": "gold"
+      },
+      {
+        "text": "guy in black",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073783993_66.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000546517_1.jpg",
+    "bbox": [
+      247.79434742647058,
+      50.80847311580882,
+      196.0357536764706,
+      79.28470818014706
+    ],
+    "candidates": [
+      {
+        "text": "laptop",
+        "type": "generated"
+      },
+      {
+        "text": "Apple laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The Mac laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The MacBook",
+        "type": "generated"
+      },
+      {
+        "text": "Apple Mac laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The Mac",
+        "type": "generated"
+      },
+      {
+        "text": "The computer",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop on top of the orange microwave",
+        "type": "generated"
+      },
+      {
+        "text": "Macbook",
+        "type": "generated"
+      },
+      {
+        "text": "apple laptop",
+        "type": "gold"
+      },
+      {
+        "text": "apple pc",
+        "type": "gold"
+      },
+      {
+        "text": "macbook laptop",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073788796_67.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000224367_2.jpg",
+    "bbox": [
+      149.30000019073486,
+      113.04000091552734,
+      222.75,
+      64.83000183105469
+    ],
+    "candidates": [
+      {
+        "text": "The cat with white fur on its neck",
+        "type": "generated"
+      },
+      {
+        "text": "Area where the cat is lying",
+        "type": "generated"
+      },
+      {
+        "text": "The cat",
+        "type": "generated"
+      },
+      {
+        "text": "The cat in the back",
+        "type": "generated"
+      },
+      {
+        "text": "The cat at the top of image",
+        "type": "generated"
+      },
+      {
+        "text": "The cat at the top of bed",
+        "type": "generated"
+      },
+      {
+        "text": "Top cat",
+        "type": "generated"
+      },
+      {
+        "text": "The top cat",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted element in the room",
+        "type": "generated"
+      },
+      {
+        "text": "top animal",
+        "type": "gold"
+      },
+      {
+        "text": "cat in back",
+        "type": "gold"
+      },
+      {
+        "text": "top cat",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073798291_68.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000324732_1.jpg",
+    "bbox": [
+      179.67527857497166,
+      37.115647365717116,
+      121.80317504606009,
+      270.99137701955783
+    ],
+    "candidates": [
+      {
+        "text": "The opened refrigerator",
+        "type": "generated"
+      },
+      {
+        "text": "fridge",
+        "type": "generated"
+      },
+      {
+        "text": "refrigerator door",
+        "type": "generated"
+      },
+      {
+        "text": "The refrigerator",
+        "type": "generated"
+      },
+      {
+        "text": "Refrigerator",
+        "type": "generated"
+      },
+      {
+        "text": "The door of the refrigerator",
+        "type": "generated"
+      },
+      {
+        "text": "The left refrigerator",
+        "type": "generated"
+      },
+      {
+        "text": "The refrigerator on the right",
+        "type": "generated"
+      },
+      {
+        "text": "Refrigerator door",
+        "type": "generated"
+      },
+      {
+        "text": "closed fridge between the lady and open doored one",
+        "type": "gold"
+      },
+      {
+        "text": "the fridge the sign is cutting into",
+        "type": "gold"
+      },
+      {
+        "text": "middle fridge",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073807960_69.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000006747_3.jpg",
+    "bbox": [
+      43.72000002861023,
+      147.086669921875,
+      194.44000244140625,
+      139.19332885742188
+    ],
+    "candidates": [
+      {
+        "text": "A woman on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the left",
+        "type": "generated"
+      },
+      {
+        "text": "woman on the left",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with the short black hair and long",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with her hair tied back in a bun",
+        "type": "generated"
+      },
+      {
+        "text": "The person on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The lady with the black top",
+        "type": "generated"
+      },
+      {
+        "text": "The girl on the left",
+        "type": "generated"
+      },
+      {
+        "text": "girl in black",
+        "type": "gold"
+      },
+      {
+        "text": "LEFT GIRL",
+        "type": "gold"
+      },
+      {
+        "text": "left person",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073817009_70.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000316238_7.jpg",
+    "bbox": [
+      418.07954963235295,
+      132.41223575367647,
+      78.8028262867647,
+      148.93176700367647
+    ],
+    "candidates": [
+      {
+        "text": "The woman sitting at the table",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in camouflage",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the red box is on far",
+        "type": "generated"
+      },
+      {
+        "text": "The person highlighted by the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the chair",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the far right",
+        "type": "generated"
+      },
+      {
+        "text": "The woman sitting at the far end of table",
+        "type": "generated"
+      },
+      {
+        "text": "right woman sitting",
+        "type": "gold"
+      },
+      {
+        "text": "person sitting",
+        "type": "gold"
+      },
+      {
+        "text": "sitting down",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073826658_71.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000221053_0.jpg",
+    "bbox": [
+      412.13334147135413,
+      142.55999755859375,
+      57.53333536783854,
+      177.44000244140625
+    ],
+    "candidates": [
+      {
+        "text": "The person sitting in a red box",
+        "type": "generated"
+      },
+      {
+        "text": "The person on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The person highlighting the box",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "GENTLEMAN IN Blue short-sleeved",
+        "type": "generated"
+      },
+      {
+        "text": "The guy sitting down on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The man sitting",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the blue shirt",
+        "type": "generated"
+      },
+      {
+        "text": "right guy",
+        "type": "gold"
+      },
+      {
+        "text": "guy on right cut off",
+        "type": "gold"
+      },
+      {
+        "text": "person right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073836935_72.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000210252_4.jpg",
+    "bbox": [
+      336.71943153542156,
+      54.4299745224678,
+      130.15830832845435,
+      261.0360710626464
+    ],
+    "candidates": [
+      {
+        "text": "The man with the baseball bat",
+        "type": "generated"
+      },
+      {
+        "text": "The object highlighted by the red box is billboard",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the poster",
+        "type": "generated"
+      },
+      {
+        "text": "The man with the bat",
+        "type": "generated"
+      },
+      {
+        "text": "poster in the background",
+        "type": "generated"
+      },
+      {
+        "text": "The man with a bat",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in the poster",
+        "type": "generated"
+      },
+      {
+        "text": "The man holding a baseball bat",
+        "type": "generated"
+      },
+      {
+        "text": "The man holding a bat",
+        "type": "generated"
+      },
+      {
+        "text": "guy on right",
+        "type": "gold"
+      },
+      {
+        "text": "man on right",
+        "type": "gold"
+      },
+      {
+        "text": "man with hammer in back",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073846757_73.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000159723_1.jpg",
+    "bbox": [
+      185.42823988970588,
+      97.79952895220588,
+      181.93318014705883,
+      217.8861213235294
+    ],
+    "candidates": [
+      {
+        "text": "The child",
+        "type": "generated"
+      },
+      {
+        "text": "The little girl",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object is: little girl in pink",
+        "type": "generated"
+      },
+      {
+        "text": "The daughter",
+        "type": "generated"
+      },
+      {
+        "text": "The little girl in pink",
+        "type": "generated"
+      },
+      {
+        "text": "The girl",
+        "type": "generated"
+      },
+      {
+        "text": "Her",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted child",
+        "type": "generated"
+      },
+      {
+        "text": "The baby girl",
+        "type": "generated"
+      },
+      {
+        "text": "baby on lap",
+        "type": "gold"
+      },
+      {
+        "text": "baby on man lap",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073856399_74.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000477828_2.jpg",
+    "bbox": [
+      47.193333307902016,
+      130.48000081380206,
+      144.98000081380206,
+      101.24666341145833
+    ],
+    "candidates": [
+      {
+        "text": "The sheep in the middle left of image",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep on the right",
+        "type": "generated"
+      },
+      {
+        "text": "That sheep",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep in the upper left",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep in the foreground with a black head",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The sheep in the foreground",
+        "type": "generated"
+      },
+      {
+        "text": "Sheep with black face",
+        "type": "generated"
+      },
+      {
+        "text": "left goat",
+        "type": "gold"
+      },
+      {
+        "text": "ram on way left",
+        "type": "gold"
+      },
+      {
+        "text": "Far left sheep",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073865650_75.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000394992_9.jpg",
+    "bbox": [
+      186.17898404396186,
+      150.15050648834745,
+      49.13898222325212,
+      110.23728813559322
+    ],
+    "candidates": [
+      {
+        "text": "The player in the middle of front row",
+        "type": "generated"
+      },
+      {
+        "text": "The girl wearing a white t-shirt with rainbow",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the center of photo",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the middle of first row sitting",
+        "type": "generated"
+      },
+      {
+        "text": "Linda Hansen",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the middle of front row",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the center of front row,",
+        "type": "generated"
+      },
+      {
+        "text": "The person",
+        "type": "generated"
+      },
+      {
+        "text": "lower row, second from left",
+        "type": "gold"
+      },
+      {
+        "text": "bottom row second from left",
+        "type": "gold"
+      },
+      {
+        "text": "Gwynne Morris",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073875265_76.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000386401_1.jpg",
+    "bbox": [
+      279.25499725341797,
+      31.75,
+      53.61000061035156,
+      260.8399963378906
+    ],
+    "candidates": [
+      {
+        "text": "The woman",
+        "type": "generated"
+      },
+      {
+        "text": "The woman's right arm",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The woman's gesture",
+        "type": "generated"
+      },
+      {
+        "text": "The lady holding the horse's head",
+        "type": "generated"
+      },
+      {
+        "text": "The lady holding up her hand",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The woman's outstretched hand",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "winner",
+        "type": "gold"
+      },
+      {
+        "text": "woman",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073880320_77.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000305141_1.jpg",
+    "bbox": [
+      0.6480000019073486,
+      52.23999938964844,
+      321.16000976562503,
+      244.447998046875
+    ],
+    "candidates": [
+      {
+        "text": "The woman seated on the couch holding a glass of",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the couch holding wine glass",
+        "type": "generated"
+      },
+      {
+        "text": "The woman on the couch",
+        "type": "generated"
+      },
+      {
+        "text": "The woman lying on the couch",
+        "type": "generated"
+      },
+      {
+        "text": "The frame",
+        "type": "generated"
+      },
+      {
+        "text": "The woman leaning against the sofa",
+        "type": "generated"
+      },
+      {
+        "text": "The image in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The lady",
+        "type": "generated"
+      },
+      {
+        "text": "The woman holding the glass of wine",
+        "type": "generated"
+      },
+      {
+        "text": "woman in purple",
+        "type": "gold"
+      },
+      {
+        "text": "woman",
+        "type": "gold"
+      },
+      {
+        "text": "purple shirt",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073890312_78.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000320059_11.jpg",
+    "bbox": [
+      300.88999938964844,
+      70.83999633789062,
+      72.3550033569336,
+      93.72000122070312
+    ],
+    "candidates": [
+      {
+        "text": "The man holding the bucket",
+        "type": "generated"
+      },
+      {
+        "text": "The man in the background on right",
+        "type": "generated"
+      },
+      {
+        "text": "The man with a pot in his arms",
+        "type": "generated"
+      },
+      {
+        "text": "An old man",
+        "type": "generated"
+      },
+      {
+        "text": "The man with the apron and bucket",
+        "type": "generated"
+      },
+      {
+        "text": "The man standing at a table",
+        "type": "generated"
+      },
+      {
+        "text": "The man under the red box",
+        "type": "generated"
+      },
+      {
+        "text": "the man",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "guy in the back emptying container",
+        "type": "gold"
+      },
+      {
+        "text": "right guy",
+        "type": "gold"
+      },
+      {
+        "text": "man in the back",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073900189_79.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000204680_6.jpg",
+    "bbox": [
+      77.08213216145833,
+      35.797333984375,
+      132.98346354166668,
+      151.27040364583334
+    ],
+    "candidates": [
+      {
+        "text": "Carrots",
+        "type": "generated"
+      },
+      {
+        "text": "The contents of the left purple tub",
+        "type": "generated"
+      },
+      {
+        "text": "The orange oval container of cut carrots",
+        "type": "generated"
+      },
+      {
+        "text": "the carrots",
+        "type": "generated"
+      },
+      {
+        "text": "The carrots",
+        "type": "generated"
+      },
+      {
+        "text": "The container of small orange squares",
+        "type": "generated"
+      },
+      {
+        "text": "The orange bowl at the top left containing carrot slices",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted food item is baby carrots",
+        "type": "generated"
+      },
+      {
+        "text": "The food item that was mentioned as potentially being carriage",
+        "type": "generated"
+      },
+      {
+        "text": "left orange",
+        "type": "gold"
+      },
+      {
+        "text": "carrots",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073905101_80.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000438422_2.jpg",
+    "bbox": [
+      311.5765835406909,
+      85.86791706308549,
+      103.45667676009954,
+      234.13209437207263
+    ],
+    "candidates": [
+      {
+        "text": "The old man",
+        "type": "generated"
+      },
+      {
+        "text": "The older man in the white shirt with gray hair",
+        "type": "generated"
+      },
+      {
+        "text": "the older man",
+        "type": "generated"
+      },
+      {
+        "text": "The man with gray hair and a white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The older man with gray hair",
+        "type": "generated"
+      },
+      {
+        "text": "The man with the gray hair and white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The man with gray hair",
+        "type": "generated"
+      },
+      {
+        "text": "man in the orange t-shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The gentleman wearing the white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "white hair man",
+        "type": "gold"
+      },
+      {
+        "text": "white shirt tasting",
+        "type": "gold"
+      },
+      {
+        "text": "guy i white",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073915017_81.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000178192_2.jpg",
+    "bbox": [
+      54.280000050862625,
+      162.39333089192706,
+      154.66666666666666,
+      127.34666951497395
+    ],
+    "candidates": [
+      {
+        "text": "The laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop to the left",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop on the left",
+        "type": "generated"
+      },
+      {
+        "text": "Laptop on the left",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop with the red box around it",
+        "type": "generated"
+      },
+      {
+        "text": "Laptop",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop on the left side with an open screen",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop with the picture of family",
+        "type": "generated"
+      },
+      {
+        "text": "The laptop on the far left side of desk",
+        "type": "generated"
+      },
+      {
+        "text": "laptop furthest left",
+        "type": "gold"
+      },
+      {
+        "text": "L LAP",
+        "type": "gold"
+      },
+      {
+        "text": "left laptop",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073924719_82.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000322517_3.jpg",
+    "bbox": [
+      177.87353629976582,
+      0.20983606646714223,
+      111.0332580137588,
+      143.25058090603045
+    ],
+    "candidates": [
+      {
+        "text": "The woman in white",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the white polka dot shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the polka dot shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the middle",
+        "type": "generated"
+      },
+      {
+        "text": "The woman's face",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the middle wearing a white shirt with",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the white flowery blouse",
+        "type": "generated"
+      },
+      {
+        "text": "The lady in the polka dot shirt with a",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in a white shirt with brown polka",
+        "type": "generated"
+      },
+      {
+        "text": "Center polka",
+        "type": "gold"
+      },
+      {
+        "text": "black dotted on white",
+        "type": "gold"
+      },
+      {
+        "text": "woman in pokodots",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073934351_83.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000439509_3.jpg",
+    "bbox": [
+      406.47492498536303,
+      130.33817192988877,
+      89.15035060194673,
+      137.34520226507613
+    ],
+    "candidates": [
+      {
+        "text": "The vehicle surrounded by a red square is referred to",
+        "type": "generated"
+      },
+      {
+        "text": "The bus",
+        "type": "generated"
+      },
+      {
+        "text": "The front tip of the bus",
+        "type": "generated"
+      },
+      {
+        "text": "The front part of the bus on right end",
+        "type": "generated"
+      },
+      {
+        "text": "The bus with the number 382 on",
+        "type": "generated"
+      },
+      {
+        "text": "Bus number 972",
+        "type": "generated"
+      },
+      {
+        "text": "Bus number 792",
+        "type": "generated"
+      },
+      {
+        "text": "The bus at the end",
+        "type": "generated"
+      },
+      {
+        "text": "Bus number 646",
+        "type": "generated"
+      },
+      {
+        "text": "Greenish bus on right",
+        "type": "gold"
+      },
+      {
+        "text": "right most car",
+        "type": "gold"
+      },
+      {
+        "text": "smallest bus",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073943916_84.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000278371_1.jpg",
+    "bbox": [
+      193.7184418613471,
+      0.0,
+      90.01165001137743,
+      137.50679090185074
+    ],
+    "candidates": [
+      {
+        "text": "Man in white t-shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The area of the person's arm between elbow",
+        "type": "generated"
+      },
+      {
+        "text": "His white shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The partially visible person",
+        "type": "generated"
+      },
+      {
+        "text": "The person's midsection",
+        "type": "generated"
+      },
+      {
+        "text": "The body of a man walking",
+        "type": "generated"
+      },
+      {
+        "text": "The person's white t-shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The person's torso",
+        "type": "generated"
+      },
+      {
+        "text": "The man standing",
+        "type": "generated"
+      },
+      {
+        "text": "white shirt",
+        "type": "gold"
+      },
+      {
+        "text": "man white shirt middle",
+        "type": "gold"
+      },
+      {
+        "text": "person in the white shirt",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073948684_85.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000136651_3.jpg",
+    "bbox": [
+      275.7933349609375,
+      217.30000813802081,
+      81.44000244140625,
+      99.46000162760416
+    ],
+    "candidates": [
+      {
+        "text": "Woman petting cow",
+        "type": "generated"
+      },
+      {
+        "text": "The girl",
+        "type": "generated"
+      },
+      {
+        "text": "The little girl",
+        "type": "generated"
+      },
+      {
+        "text": "The person who is milking one of the cows",
+        "type": "generated"
+      },
+      {
+        "text": "The woman examining the rope around cow's head",
+        "type": "generated"
+      },
+      {
+        "text": "The girl writing something",
+        "type": "generated"
+      },
+      {
+        "text": "The lady in the green shirt",
+        "type": "generated"
+      },
+      {
+        "text": "The girl painting the cow's face",
+        "type": "generated"
+      },
+      {
+        "text": "The girl petting the cow",
+        "type": "generated"
+      },
+      {
+        "text": "little girl yellow head band",
+        "type": "gold"
+      },
+      {
+        "text": "kid middle right front",
+        "type": "gold"
+      },
+      {
+        "text": "left girl",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073953457_86.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000181208_13.jpg",
+    "bbox": [
+      367.8666585286458,
+      28.64666748046875,
+      64.53999837239583,
+      248.42667643229166
+    ],
+    "candidates": [
+      {
+        "text": "The woman on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The woman standing next to the lady in striped",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the green shirt with red box",
+        "type": "generated"
+      },
+      {
+        "text": "Woman with curly red hair",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with short brown curly hair, glasses,",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the black vest",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with the red box around her",
+        "type": "generated"
+      },
+      {
+        "text": "The woman wearing curly hair",
+        "type": "generated"
+      },
+      {
+        "text": "The woman with curly red hair",
+        "type": "generated"
+      },
+      {
+        "text": "a woman with glasses wearing a black t-shirt",
+        "type": "gold"
+      },
+      {
+        "text": "glasses right",
+        "type": "gold"
+      },
+      {
+        "text": "far rt woman",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073958331_87.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000282691_2.jpg",
+    "bbox": [
+      302.1399943033854,
+      153.92666625976562,
+      167.34666951497394,
+      94.33999633789062
+    ],
+    "candidates": [
+      {
+        "text": "The beds",
+        "type": "generated"
+      },
+      {
+        "text": "The sofas",
+        "type": "generated"
+      },
+      {
+        "text": "The sofa bed",
+        "type": "generated"
+      },
+      {
+        "text": "The sofa beds",
+        "type": "generated"
+      },
+      {
+        "text": "The bed",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted object can be referred to as:",
+        "type": "generated"
+      },
+      {
+        "text": "The couches",
+        "type": "generated"
+      },
+      {
+        "text": "The sofa (or sofas)",
+        "type": "generated"
+      },
+      {
+        "text": "The sofa",
+        "type": "generated"
+      },
+      {
+        "text": "bed close to window",
+        "type": "gold"
+      },
+      {
+        "text": "bed by window",
+        "type": "gold"
+      },
+      {
+        "text": "back bed",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073963116_88.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000364210_3.jpg",
+    "bbox": [
+      16.801873575608123,
+      170.8964820879684,
+      244.81125128073774,
+      149.10351791203163
+    ],
+    "candidates": [
+      {
+        "text": "The slice",
+        "type": "generated"
+      },
+      {
+        "text": "The icing",
+        "type": "generated"
+      },
+      {
+        "text": "The chocolate frosted donut top",
+        "type": "generated"
+      },
+      {
+        "text": "The donut piece",
+        "type": "generated"
+      },
+      {
+        "text": "The top of the cake",
+        "type": "generated"
+      },
+      {
+        "text": "The topping on the right doughnut",
+        "type": "generated"
+      },
+      {
+        "text": "The bottom left portion of the donut",
+        "type": "generated"
+      },
+      {
+        "text": "The cream-filled donut with chopped nuts",
+        "type": "generated"
+      },
+      {
+        "text": "Crumble topping",
+        "type": "generated"
+      },
+      {
+        "text": "partial donut bottom left",
+        "type": "gold"
+      },
+      {
+        "text": "bottom left food",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073972459_89.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000467397_2.jpg",
+    "bbox": [
+      87.00827833153735,
+      1.4344827936983657,
+      195.15586835488506,
+      113.36092403017241
+    ],
+    "candidates": [
+      {
+        "text": "Top",
+        "type": "generated"
+      },
+      {
+        "text": "Top left donut",
+        "type": "generated"
+      },
+      {
+        "text": "The donut",
+        "type": "generated"
+      },
+      {
+        "text": "The donut with pink pearls in the upper left",
+        "type": "generated"
+      },
+      {
+        "text": "Top donut",
+        "type": "generated"
+      },
+      {
+        "text": "The donut with pink dots",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted donut",
+        "type": "generated"
+      },
+      {
+        "text": "Top sprinkled donut",
+        "type": "generated"
+      },
+      {
+        "text": "The tan ring",
+        "type": "generated"
+      },
+      {
+        "text": "top left white",
+        "type": "gold"
+      },
+      {
+        "text": "back light tan donut with brown flakes",
+        "type": "gold"
+      },
+      {
+        "text": "white donut",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073977249_90.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000369557_3.jpg",
+    "bbox": [
+      240.07085372740966,
+      97.48048051581326,
+      217.73108057228916,
+      122.35565700301206
+    ],
+    "candidates": [
+      {
+        "text": "The player diving for the frisbee",
+        "type": "generated"
+      },
+      {
+        "text": "guy diving for it",
+        "type": "generated"
+      },
+      {
+        "text": "The man diving for the frisbee",
+        "type": "generated"
+      },
+      {
+        "text": "the guy",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in the white shirt, blue pants,",
+        "type": "generated"
+      },
+      {
+        "text": "The man who dove and is on the grass",
+        "type": "generated"
+      },
+      {
+        "text": "The character doing the diving catch for fris",
+        "type": "generated"
+      },
+      {
+        "text": "The guy on the ground trying to catch fr",
+        "type": "generated"
+      },
+      {
+        "text": "guy on the ground",
+        "type": "generated"
+      },
+      {
+        "text": "diving guy",
+        "type": "gold"
+      },
+      {
+        "text": "man catching frisbee",
+        "type": "gold"
+      },
+      {
+        "text": "boy diving on right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073986371_91.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000391088_1.jpg",
+    "bbox": [
+      105.35000038146973,
+      114.33499908447266,
+      132.31500244140625,
+      136.6300048828125
+    ],
+    "candidates": [
+      {
+        "text": "The donut",
+        "type": "generated"
+      },
+      {
+        "text": "The pink frosted doughnut",
+        "type": "generated"
+      },
+      {
+        "text": "The doughnut with pink icing and possibly a cherry",
+        "type": "generated"
+      },
+      {
+        "text": "The doughnut with pink frosting",
+        "type": "generated"
+      },
+      {
+        "text": "The donut with pink glaze",
+        "type": "generated"
+      },
+      {
+        "text": "The pink glazed donut in the center",
+        "type": "generated"
+      },
+      {
+        "text": "The donut in the bottom left",
+        "type": "generated"
+      },
+      {
+        "text": "The highlighted donut",
+        "type": "generated"
+      },
+      {
+        "text": "The pink frosted donut",
+        "type": "generated"
+      },
+      {
+        "text": "pinke/red donut",
+        "type": "gold"
+      },
+      {
+        "text": "pink",
+        "type": "gold"
+      },
+      {
+        "text": "pink donut",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749073996524_92.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000462197_1.jpg",
+    "bbox": [
+      275.7007152090827,
+      11.01582698684802,
+      115.57409931429855,
+      305.55397088579133
+    ],
+    "candidates": [
+      {
+        "text": "The woman",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the blue bikini",
+        "type": "generated"
+      },
+      {
+        "text": "She",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in blue",
+        "type": "generated"
+      },
+      {
+        "text": "The woman wearing the blue bikini",
+        "type": "generated"
+      },
+      {
+        "text": "The lady",
+        "type": "generated"
+      },
+      {
+        "text": "girl",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in the bikini",
+        "type": "generated"
+      },
+      {
+        "text": "The woman in blue bikini",
+        "type": "generated"
+      },
+      {
+        "text": "tan lines on butt",
+        "type": "gold"
+      },
+      {
+        "text": "girl throwing frisbee",
+        "type": "gold"
+      },
+      {
+        "text": "right person",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074001201_93.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000291973_7.jpg",
+    "bbox": [
+      96.0,
+      88.66999816894531,
+      137.97999572753906,
+      207.05999755859375
+    ],
+    "candidates": [
+      {
+        "text": "A banana",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch of bananas",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch to the left",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch of bananas above the parrot's head",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch of bananas to the left",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch of bananas to the left par",
+        "type": "generated"
+      },
+      {
+        "text": "banans",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch of unripe yellow bananas",
+        "type": "generated"
+      },
+      {
+        "text": "The bunch nearest the camera",
+        "type": "generated"
+      },
+      {
+        "text": "Far left center banana",
+        "type": "gold"
+      },
+      {
+        "text": "banana left bird is standing on",
+        "type": "gold"
+      },
+      {
+        "text": "bananas that the parrot to left sitting on",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074010172_94.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000376573_4.jpg",
+    "bbox": [
+      286.6066691080729,
+      52.973332722981766,
+      65.58000183105469,
+      201.80000813802081
+    ],
+    "candidates": [
+      {
+        "text": "the board",
+        "type": "generated"
+      },
+      {
+        "text": "The snowboard in the man's left hand",
+        "type": "generated"
+      },
+      {
+        "text": "The snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "The object highlighted by the red box is referred to",
+        "type": "generated"
+      },
+      {
+        "text": "The person holding the black snowboard",
+        "type": "generated"
+      },
+      {
+        "text": "The snowboard in the man's hands",
+        "type": "generated"
+      },
+      {
+        "text": "The snowboard he's carrying",
+        "type": "generated"
+      },
+      {
+        "text": "The person in the red rectangle",
+        "type": "generated"
+      },
+      {
+        "text": "The person highlighted by the red box",
+        "type": "generated"
+      },
+      {
+        "text": "Left guy",
+        "type": "gold"
+      },
+      {
+        "text": "left dude",
+        "type": "gold"
+      },
+      {
+        "text": "left man",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074019279_95.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000536233_5.jpg",
+    "bbox": [
+      214.99500274658203,
+      146.17999267578125,
+      43.46500015258789,
+      109.9800033569336
+    ],
+    "candidates": [
+      {
+        "text": "The young child in black clothing",
+        "type": "generated"
+      },
+      {
+        "text": "The child in the black suit",
+        "type": "generated"
+      },
+      {
+        "text": "The child",
+        "type": "generated"
+      },
+      {
+        "text": "The person in black",
+        "type": "generated"
+      },
+      {
+        "text": "The boy in front",
+        "type": "generated"
+      },
+      {
+        "text": "The boy carrying the kite",
+        "type": "generated"
+      },
+      {
+        "text": "The Son",
+        "type": "generated"
+      },
+      {
+        "text": "Son",
+        "type": "generated"
+      },
+      {
+        "text": "The boy",
+        "type": "generated"
+      },
+      {
+        "text": "child in black, back to us",
+        "type": "gold"
+      },
+      {
+        "text": "KID",
+        "type": "gold"
+      },
+      {
+        "text": "little kid in black jacket. back to us",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074028394_96.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000250385_0.jpg",
+    "bbox": [
+      309.54667154947913,
+      50.38666788736979,
+      120.63333129882812,
+      171.1933390299479
+    ],
+    "candidates": [
+      {
+        "text": "The baby bear",
+        "type": "generated"
+      },
+      {
+        "text": "The cub on the right side of image",
+        "type": "generated"
+      },
+      {
+        "text": "The cub on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The bear on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The last cub",
+        "type": "generated"
+      },
+      {
+        "text": "The bear to the right",
+        "type": "generated"
+      },
+      {
+        "text": "Leftmost cub",
+        "type": "generated"
+      },
+      {
+        "text": "The bear cub on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The baby bear on the right",
+        "type": "generated"
+      },
+      {
+        "text": "animal on right",
+        "type": "gold"
+      },
+      {
+        "text": "the baby bear on right",
+        "type": "gold"
+      },
+      {
+        "text": "bear on right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074037233_97.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000214150_2.jpg",
+    "bbox": [
+      316.15334065755206,
+      91.89333089192708,
+      131.89333089192706,
+      171.5333251953125
+    ],
+    "candidates": [
+      {
+        "text": "The zebra with its tail closest to the viewer",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra behind another",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the red box",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra near the brown brush",
+        "type": "generated"
+      },
+      {
+        "text": "To the upper right of zebra on",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra on the right",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra in the red box would be referred",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra with its head turned to the right",
+        "type": "generated"
+      },
+      {
+        "text": "The zebra towards the right side of image",
+        "type": "generated"
+      },
+      {
+        "text": "last zebra facing to right",
+        "type": "gold"
+      },
+      {
+        "text": "right back zebra",
+        "type": "gold"
+      },
+      {
+        "text": "back right zbra head",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074046207_98.jpg"
+  },
+  {
+    "imagefile": "COCO_train2014_000000425441_5.jpg",
+    "bbox": [
+      361.05292191159253,
+      103.86885703307964,
+      94.50116981667155,
+      188.28290809792156
+    ],
+    "candidates": [
+      {
+        "text": "The man with the long hair",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the far right",
+        "type": "generated"
+      },
+      {
+        "text": "the man",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in the pink shirt and black pants",
+        "type": "generated"
+      },
+      {
+        "text": "The man eating a snack",
+        "type": "generated"
+      },
+      {
+        "text": "The guy eating the chips",
+        "type": "generated"
+      },
+      {
+        "text": "The guy in the pink shirt",
+        "type": "generated"
+      },
+      {
+        "text": "the guy in pink t-shirt and black trousers",
+        "type": "generated"
+      },
+      {
+        "text": "The man on the couch",
+        "type": "generated"
+      },
+      {
+        "text": "LAST PERSON ON RIGHT",
+        "type": "gold"
+      },
+      {
+        "text": "girl on right eating",
+        "type": "gold"
+      },
+      {
+        "text": "last person on far right",
+        "type": "gold"
+      }
+    ],
+    "overlay_path": "output/overlayed_images/overlayed_example_1749074055310_99.jpg"
+  }
+]
