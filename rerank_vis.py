@@ -1,3 +1,159 @@
+import streamlit as st
+import json
+from PIL import Image, ImageDraw
+from pathlib import Path
+
+st.set_page_config(layout="wide")
+st.title("Gaze vs REC: Click to Show Path/Point")
+
+# ─── 1) Load JSON files (now containing "gaze_sequences" and "rec_points") ───────
+with open("output/gaze_scoring_results_new.json") as f:
+    gaze_data = json.load(f)
+
+with open("output/rec_scoring_results_new.json") as f:
+    rec_data = json.load(f)
+
+# Build a dict keyed by image_path. Each entry now pulls:
+#   - "gaze_sequences": [ [ [x,y], [x,y], … ],  … ]   (one sublist per candidate)
+#   - "rec_points":    [ [x,y], [x,y], … ]             (one [x,y] per candidate)
+data = {}
+for g_entry, r_entry in zip(gaze_data, rec_data):
+    image_path = g_entry["image_path"]
+    assert image_path == r_entry["image_path"]
+
+    gaze_sequences = g_entry.get("gaze_sequences", [])
+    rec_points      = r_entry.get("rec_points", [])
+
+    # Sanity checks:
+    assert len(gaze_sequences) == len(g_entry["candidates"]), (
+        f"gaze_sequences length != # of candidates for {image_path}"
+    )
+    assert len(rec_points) == len(r_entry["candidates"]), (
+        f"rec_points length != # of candidates for {image_path}"
+    )
+
+    data[image_path] = {
+        "bbox": g_entry["bbox"],
+        "candidates": g_entry["candidates"],
+        "gaze_distances": g_entry["gaze_distances"],
+        "rec_distances": r_entry["rec_distances"],
+        "gaze_sequences": gaze_sequences,
+        "rec_points": rec_points,
+    }
+
+# ─── 2) Helper: load from local “data/overlayed_images/” ──────────────────────────
+def get_image_by_filename(filename: str) -> Image.Image | None:
+    local_path = Path("output/overlayed_images") / filename
+    if local_path.exists():
+        return Image.open(local_path)
+    return None
+
+# ─── 3) Drawing functions ────────────────────────────────────────────────────────
+def draw_bbox(im: Image.Image, bbox: list[float], color: str = "red", width: int = 3) -> Image.Image:
+    canvas = im.copy()
+    draw = ImageDraw.Draw(canvas)
+    x0, y0, x1, y1 = bbox
+    draw.rectangle([x0, y0, x1, y1], outline=color, width=width)
+    return canvas
+
+def draw_gaze_path(im: Image.Image, path: list[list[float]], color: str = "lime", width: int = 2) -> Image.Image:
+    if not path or len(path) < 2:
+        return im
+    canvas = im.copy()
+    draw = ImageDraw.Draw(canvas)
+    pts = [(pt[0], pt[1]) for pt in path]
+    draw.line(pts, fill=color, width=width)
+    for x, y in pts:
+        r = 3
+        draw.ellipse([x - r, y - r, x + r, y + r], outline=color, width=1)
+    return canvas
+
+def draw_rec_point(im: Image.Image, point: list[float], color: str = "yellow", radius: int = 5) -> Image.Image:
+    if not point or len(point) != 2:
+        return im
+    x, y = point
+    canvas = im.copy()
+    draw = ImageDraw.Draw(canvas)
+    r = radius
+    draw.ellipse([x - r, y - r, x + r, y + r], fill=color, outline=color)
+    return canvas
+
+# ─── 4) Streamlit UI ─────────────────────────────────────────────────────────────
+# 4.1 – Select which image‐entry to visualize
+example_keys = list(data.keys())
+selected_image_path = st.selectbox("🔎 Choose an example (image_path):", example_keys)
+
+entry = data[selected_image_path]
+filename = Path(selected_image_path).name
+bbox = entry["bbox"]
+candidates = entry["candidates"]
+gaze_distances = entry["gaze_distances"]
+rec_distances = entry["rec_distances"]
+gaze_sequences = entry["gaze_sequences"]
+rec_points      = entry["rec_points"]
+
+# 4.2 – Load the base image
+base_image = get_image_by_filename(filename)
+if base_image is None:
+    st.error(f"Could not find '{filename}' in data/overlayed_images/.")
+    st.stop()
+
+# 4.3 – Draw the bounding box once
+img_with_bbox = draw_bbox(base_image, bbox, color="red", width=3)
+st.subheader("① Base image + bounding box")
+st.image(img_with_bbox, use_column_width=True)
+
+# 4.4 – Prepare session_state to track which candidate‐button was clicked
+if "selected_candidate_idx" not in st.session_state:
+    st.session_state.selected_candidate_idx = None
+
+# 4.5 – Show a button for each candidate
+st.subheader("② Click a candidate button to overlay its Gaze path & REC point")
+cols = st.columns(2)
+for idx, cand in enumerate(candidates):
+    col = cols[idx % 2]
+    btn_text = f"{cand['text']}  ({cand['type']})"
+    if col.button(btn_text, key=f"btn_{idx}"):
+        st.session_state.selected_candidate_idx = idx
+
+# 4.6 – After the user clicks, re‐draw overlays for that candidate
+sel_idx = st.session_state.selected_candidate_idx
+if sel_idx is not None:
+    st.markdown("---")
+    st.write(f"**Selected candidate:** {candidates[sel_idx]['text']}  — Type: `{candidates[sel_idx]['type']}`")
+
+    # 4.6.1 – Start from the bounding‐box image
+    overlay = img_with_bbox.copy()
+
+    # 4.6.2 – Overlay this candidate’s gaze sequence
+    gaze_path = gaze_sequences[sel_idx]
+    overlay = draw_gaze_path(overlay, gaze_path, color="lime", width=2)
+
+    # 4.6.3 – Overlay this candidate’s REC point
+    rec_pt = rec_points[sel_idx]
+    overlay = draw_rec_point(overlay, rec_pt, color="yellow", radius=5)
+
+    # 4.6.4 – Show the final overlay
+    st.subheader("③ Overlay: Gaze path (lime) + REC point (yellow)")
+    st.image(overlay, use_column_width=True)
+
+# 4.7 – Always show the two reranked tables at the bottom
+def reranked_table(cands, dists, title: str):
+    st.write(f"#### {title}")
+    sorted_items = sorted(zip(dists, cands), key=lambda x: x[0])
+    for dist, cand in sorted_items:
+        tag = "🟡 Gold" if cand["type"] == "gold" else "⚪️ Gen"
+        st.markdown(f"- `{dist:.2f}`  **{cand['text']}** ({tag})")
+
+st.markdown("---")
+col_a, col_b = st.columns(2)
+with col_a:
+    reranked_table(candidates, gaze_distances, "👁️ Gaze-Based Ranking")
+with col_b:
+    reranked_table(candidates, rec_distances, "📍 REC-Based Ranking")
+
+
+#---OLD VERSION---
 # import streamlit as st
 # import json
 # from PIL import Image, ImageDraw
@@ -73,171 +229,3 @@
 
 # with col2:
 #     reranked_table(candidates, rec_scores, "📍 REC-Based Ranking")
-
-import streamlit as st
-import json
-from PIL import Image, ImageDraw
-from pathlib import Path
-
-st.set_page_config(layout="wide")
-st.title("Gaze vs REC: On-Demand Visualization")
-
-# ─── 1) Load your JSONs ────────────────────────────────────────────────────────
-with open("gaze_scoring_results.json") as f:
-    gaze_data = json.load(f)
-
-with open("rec_scoring_results.json") as f:
-    rec_data = json.load(f)
-
-# Build a dict keyed by image_path
-data = {}
-for g_entry, r_entry in zip(gaze_data, rec_data):
-    image_path = g_entry["image_path"]
-    assert image_path == r_entry["image_path"]
-    # NOTE: We assume (for illustration) that each g_entry/r_entry also contains
-    #       actual coordinate data. 
-    #       Here, I’m stubbing in two new fields:
-    #         - "gaze_coords": a list of [x,y] pairs (the full gaze trajectory)
-    #         - "rec_point": a single [x,y] (the predicted REC point)
-    #
-    #       In practice, replace these stubs with your real arrays. 
-    #
-    #    e.g. g_entry["gaze_coords"] might be [[x0, y0], [x1, y1], …]
-    #         r_entry["rec_point"] might be [x_rec, y_rec]
-    #
-    # For now, I’ll just put empty placeholders so the code runs without errors.
-    #
-    g_entry.setdefault("gaze_coords", [])    # ← replace with real sequence
-    r_entry.setdefault("rec_point", None)     # ← replace with a real [x,y]
-    #
-    data[image_path] = {
-        "bbox": g_entry["bbox"],
-        "candidates": g_entry["candidates"],
-        "gaze_distances": g_entry["gaze_distances"],
-        "rec_distances": r_entry["rec_distances"],
-        "gaze_coords": g_entry["gaze_coords"],
-        "rec_point": r_entry["rec_point"],
-    }
-
-# ─── 2) Helper: load from local “data/overlayed_images/” ───────────────────────
-def get_image_by_filename(filename: str) -> Image.Image | None:
-    local_path = Path("data/overlayed_images") / filename
-    if local_path.exists():
-        return Image.open(local_path)
-    return None
-
-# ─── 3) Drawing functions ──────────────────────────────────────────────────────
-def draw_bbox(im: Image.Image, bbox: list[float], color: str = "red", width: int = 3) -> Image.Image:
-    """
-    Draws a rectangle given bbox = [x0, y0, x1, y1] on a copy of PIL image.
-    """
-    canvas = im.copy()
-    draw = ImageDraw.Draw(canvas)
-    x0, y0, x1, y1 = bbox
-    draw.rectangle([x0, y0, x1, y1], outline=color, width=width)
-    return canvas
-
-def draw_gaze_path(im: Image.Image, path: list[list[float]], color: str = "lime", width: int = 2) -> Image.Image:
-    """
-    Given a list of [x,y] coordinates, draws a polyline on top of im.
-    If path has fewer than 2 points, returns im unchanged.
-    """
-    if not path or len(path) < 2:
-        return im
-    canvas = im.copy()
-    draw = ImageDraw.Draw(canvas)
-    # Flatten into [(x0,y0), (x1,y1), …]
-    pts = [(pt[0], pt[1]) for pt in path]
-    draw.line(pts, fill=color, width=width)
-    # Optionally draw small circles at each fixation:
-    for (x, y) in pts:
-        r = 3
-        draw.ellipse([x - r, y - r, x + r, y + r], outline=color, width=1)
-    return canvas
-
-def draw_rec_point(im: Image.Image, point: list[float], color: str = "yellow", radius: int = 5) -> Image.Image:
-    """
-    Given a single [x, y], draws a small filled circle.
-    """
-    if not point or len(point) != 2:
-        return im
-    x, y = point
-    canvas = im.copy()
-    draw = ImageDraw.Draw(canvas)
-    r = radius
-    draw.ellipse([x - r, y - r, x + r, y + r], fill=color, outline=color)
-    return canvas
-
-# ─── 4) Main Streamlit UI ─────────────────────────────────────────────────────
-example_keys = list(data.keys())
-selected_image_path = st.selectbox("🔎 Choose an example by image_path:", example_keys)
-
-entry = data[selected_image_path]
-filename = Path(selected_image_path).name
-bbox = entry["bbox"]
-candidates = entry["candidates"]
-gaze_scores = entry["gaze_distances"]
-rec_scores = entry["rec_distances"]
-gaze_coords = entry["gaze_coords"]
-rec_point = entry["rec_point"]
-
-# Load the base image
-st.write("### Original Image (no overlays):")
-base_image = get_image_by_filename(filename)
-if base_image is None:
-    st.error(f"Could not find ‘{filename}’ in data/overlayed_images/.")
-    st.stop()
-
-# Draw and show the bounding box
-st.write("### ① Base image with bounding box:")
-img_bbox = draw_bbox(base_image, bbox, color="red", width=3)
-st.image(img_bbox, use_column_width=True)
-
-# Let user pick one of the candidate texts
-candidate_texts = [cand["text"] for cand in candidates]
-sel_idx = st.selectbox("② Pick a candidate text:", list(range(len(candidates))), format_func=lambda i: candidate_texts[i])
-
-sel_candidate = candidates[sel_idx]
-sel_text = sel_candidate["text"]
-sel_type = sel_candidate["type"]
-
-st.markdown(f"**Selected candidate:** “{sel_text}”  — Type: `{sel_type}`")
-
-# ─── 5) Overlay gaze path and REC point on demand ───────────────────────────────
-col1, col2 = st.columns(2)
-
-with col1:
-    st.write("### ③ Show gaze path for this candidate")
-    if gaze_coords:
-        img_gaze = draw_gaze_path(base_image, gaze_coords, color="lime", width=2)
-        # Also draw the bbox in case you still want to see it:
-        img_gaze = draw_bbox(img_gaze, bbox, color="red", width=2)
-        st.image(img_gaze, use_column_width=True)
-    else:
-        st.write("No gaze coordinates available for this candidate.")
-
-with col2:
-    st.write("### ④ Show REC point for this candidate")
-    if rec_point:
-        img_rec = draw_rec_point(base_image, rec_point, color="yellow", radius=5)
-        # Also draw the bbox for reference:
-        img_rec = draw_bbox(img_rec, bbox, color="red", width=2)
-        st.image(img_rec, use_column_width=True)
-    else:
-        st.write("No REC point available for this candidate.")
-
-# ─── 6) Show the reranked tables side by side ───────────────────────────────────
-def reranked_table(candidates_list, distances, title: str):
-    sorted_items = sorted(zip(distances, candidates_list), key=lambda x: x[0])
-    st.write(f"#### {title}")
-    for dist, cand in sorted_items:
-        type_tag = "🟡 Gold" if cand["type"] == "gold" else "⚪️ Gen"
-        st.markdown(f"- `{dist:.2f}`  **{cand['text']}** ({type_tag})")
-
-st.write("---")
-col_a, col_b = st.columns(2)
-with col_a:
-    reranked_table(candidates, gaze_scores, "👁️ Gaze-Based Ranking")
-with col_b:
-    reranked_table(candidates, rec_scores, "📍 REC-Based Ranking")
-
